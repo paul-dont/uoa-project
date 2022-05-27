@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import './charts.css';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
@@ -16,9 +16,9 @@ const Charts = () => {
     ]
   });
 
-  useEffect(() => {
-    const chart = chartComponent.current.chart;
-  }, []);
+  // useEffect(() => {
+  //   const chart = chartComponent.current.chart;
+  // }, []);
 
   return (
     <section id="results" className="container results__container">

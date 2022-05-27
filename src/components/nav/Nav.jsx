@@ -10,7 +10,7 @@ const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
     <nav className="nav">
-      <a href="#" className="nav__logo">
+      <a href="#nav" className="nav__logo">
         <img src={Logo} alt="logo" />
       </a>
 

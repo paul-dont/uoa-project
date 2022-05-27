@@ -15,7 +15,11 @@ const Contact = () => {
             <HiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>dummymail@gmail.com</h5>
-            <a href="mailto:pauldontas@gmail.com" target="_blank">
+            <a
+              href="mailto:pauldontas@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -23,7 +27,11 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messanger</h4>
             <h5>uoaproject</h5>
-            <a href="https://m.me/dontas.dev" target="_blank">
+            <a
+              href="https://m.me/dontas.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -31,7 +39,11 @@ const Contact = () => {
             <AiOutlineSkype className="contact__option-icon" />
             <h4>Skype</h4>
             <h5>live:uoa</h5>
-            <a href="skype:live:dontaspaul?chat" target="_blank">
+            <a
+              href="skype:live:dontaspaul?chat"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Start Chat
             </a>
           </article>
