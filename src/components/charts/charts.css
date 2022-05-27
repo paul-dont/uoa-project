@@ -1,0 +1,24 @@
+.results__container.results__container {
+  background: #31bbcd;
+  padding: 5rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.chart {
+  width: 80%;
+}
+
+.results__container h2 {
+  font-size: 2.2rem;
+  color: var(--color-bg);
+}
+
+.results__container h5 {
+  color: var(--color-bg-variant);
+}
+
+@media screen and (min-width: 768px) {
+  .results__container h2 {
+    font-size: 2.8rem;
+  }
+}

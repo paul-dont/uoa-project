@@ -1,0 +1,7 @@
+[
+  { "name": "about", "link": "#about" },
+  { "name": "results", "link": "#results" },
+  { "name": "news", "link": "#news" },
+  { "name": "partners", "link": "#partners" },
+  { "name": "contact", "link": "#contact" }
+]

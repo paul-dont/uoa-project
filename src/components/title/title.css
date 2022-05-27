@@ -1,0 +1,16 @@
+h1 {
+  background: var(--color-bg);
+  color: var(--color-white);
+  text-shadow: 0 0 5px green;
+  text-align: center;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+}
+
+/* ============ MEDIA QUERIES ============*/
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
