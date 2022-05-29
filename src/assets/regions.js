@@ -1,27 +1,27 @@
-{
-  "type": "FeatureCollection",
-  "name": "europe_nuts2",
-  "crs": {
-    "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+const mapData = {
+  type: 'FeatureCollection',
+  name: 'europe_nuts2',
+  crs: {
+    type: 'name',
+    properties: { name: 'urn:ogc:def:crs:OGC:1.3:CRS84' }
   },
-  "features": [
+  features: [
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FR",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "France",
-        "NUTS_NAME": "France",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FR"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FR',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'France',
+        NUTS_NAME: 'France',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FR'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [55.214714260201468, -21.038512085962349],
@@ -540,21 +540,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HR",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "HR",
-        "NAME_LATN": "Hrvatska",
-        "NUTS_NAME": "Hrvatska",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HR"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HR',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'HR',
+        NAME_LATN: 'Hrvatska',
+        NUTS_NAME: 'Hrvatska',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HR'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [16.596805000506155, 46.475902495494729],
@@ -856,21 +856,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Magyarország",
-        "NUTS_NAME": "Magyarország",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Magyarország',
+        NUTS_NAME: 'Magyarország',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.121077500263809, 48.378311496175904],
             [22.155306000080124, 48.403396496694697],
@@ -954,21 +954,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AL",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "AL",
-        "NAME_LATN": "Shqipëria",
-        "NUTS_NAME": "Shqipëria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AL"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AL',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'AL',
+        NAME_LATN: 'Shqipëria',
+        NUTS_NAME: 'Shqipëria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AL'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.830997499433874, 42.46644549423619],
             [20.076299999805222, 42.555823494213783],
@@ -1028,21 +1028,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Österreich",
-        "NUTS_NAME": "Österreich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Österreich',
+        NUTS_NAME: 'Österreich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.753633500151654, 48.852178496440324],
             [16.290087292944591, 48.733949447328065],
@@ -1157,21 +1157,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Belgique/België",
-        "NUTS_NAME": "Belgique/België",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Belgique/België',
+        NUTS_NAME: 'Belgique/België',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.759925999755641, 51.502464496830974],
             [4.864001758865824, 51.433621197614194],
@@ -1257,21 +1257,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Bulgaria",
-        "NUTS_NAME": "????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Bulgaria',
+        NUTS_NAME: '????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.997170999382398, 43.807867494837957],
             [23.409481475883926, 43.84984641802113],
@@ -1372,21 +1372,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Schweiz/Suisse/Svizzera",
-        "NUTS_NAME": "Schweiz/Suisse/Svizzera",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Schweiz/Suisse/Svizzera',
+        NUTS_NAME: 'Schweiz/Suisse/Svizzera',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.670461000415379, 47.68486249620922],
             [8.79570849955404, 47.675595496082195],
@@ -1477,21 +1477,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CY",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "CY",
-        "NAME_LATN": "Kýpros",
-        "NUTS_NAME": "??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CY"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CY',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'CY',
+        NAME_LATN: 'Kýpros',
+        NUTS_NAME: '??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CY'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [32.273818562485943, 35.066489113488302],
             [32.288836855354532, 35.105032402770952],
@@ -1547,21 +1547,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "?esko",
-        "NUTS_NAME": "?esko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: '?esko',
+        NUTS_NAME: '?esko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.618799999517542, 50.857804496997382],
             [14.767382262721238, 50.81985103122981],
@@ -1649,21 +1649,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Deutschland",
-        "NUTS_NAME": "Deutschland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Deutschland',
+        NUTS_NAME: 'Deutschland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [9.113096999694223, 54.873601497735066],
@@ -2014,21 +2014,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Danmark",
-        "NUTS_NAME": "Danmark",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Danmark',
+        NUTS_NAME: 'Danmark',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [15.153529288029183, 55.07770734147865],
@@ -2292,21 +2292,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EE",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "EE",
-        "NAME_LATN": "Eesti",
-        "NUTS_NAME": "Eesti",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EE',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'EE',
+        NAME_LATN: 'Eesti',
+        NUTS_NAME: 'Eesti',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EE'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [25.830159500077706, 59.564064498188394],
@@ -2434,21 +2434,23 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest",
-        "NUTS_NAME": "Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'BE',
+        NAME_LATN:
+          'Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest',
+        NUTS_NAME:
+          'Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.283083476551353, 50.813608926824941],
             [4.288827063243012, 50.891802845432593],
@@ -2461,21 +2463,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Vlaams Gewest",
-        "NUTS_NAME": "Vlaams Gewest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Vlaams Gewest',
+        NUTS_NAME: 'Vlaams Gewest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE2'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [5.892072999688422, 50.755237497279481],
@@ -2558,21 +2560,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Région wallonne",
-        "NUTS_NAME": "Région wallonne",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Région wallonne',
+        NUTS_NAME: 'Région wallonne',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [5.68200050030527, 50.757446496680622],
@@ -2651,21 +2653,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Severna i Yugoiztochna Bulgaria",
-        "NUTS_NAME": "??????? ? ?????????? ????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Severna i Yugoiztochna Bulgaria',
+        NUTS_NAME: '??????? ? ?????????? ????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.997170999382398, 43.807867494837957],
             [23.409481475883926, 43.84984641802113],
@@ -2753,21 +2755,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Yugozapadna i Yuzhna tsentralna Bulgaria",
-        "NUTS_NAME": "?????????? ? ???? ????????? ????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Yugozapadna i Yuzhna tsentralna Bulgaria',
+        NUTS_NAME: '?????????? ? ???? ????????? ????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.00620999989113, 43.192878494880524],
             [23.17949542034669, 43.114980206531669],
@@ -2836,21 +2838,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Schweiz/Suisse/Svizzera",
-        "NUTS_NAME": "Schweiz/Suisse/Svizzera",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Schweiz/Suisse/Svizzera',
+        NUTS_NAME: 'Schweiz/Suisse/Svizzera',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.670461000415379, 47.68486249620922],
             [8.79570849955404, 47.675595496082195],
@@ -2941,21 +2943,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CY0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "CY",
-        "NAME_LATN": "Kýpros",
-        "NUTS_NAME": "??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CY0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CY0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'CY',
+        NAME_LATN: 'Kýpros',
+        NUTS_NAME: '??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CY0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [32.273818562485943, 35.066489113488302],
             [32.288836855354532, 35.105032402770952],
@@ -3011,21 +3013,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "?esko",
-        "NUTS_NAME": "?esko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: '?esko',
+        NUTS_NAME: '?esko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.618799999517542, 50.857804496997382],
             [14.767382262721238, 50.81985103122981],
@@ -3113,21 +3115,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Elláda",
-        "NUTS_NAME": "??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Elláda',
+        NUTS_NAME: '??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [27.886748905102348, 35.95838752522581],
@@ -4026,21 +4028,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IE",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "IE",
-        "NAME_LATN": "Éire/Ireland",
-        "NUTS_NAME": "Éire/Ireland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IE',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'IE',
+        NAME_LATN: 'Éire/Ireland',
+        NUTS_NAME: 'Éire/Ireland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IE'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-7.256068499430945, 55.06703499803546],
@@ -4172,21 +4174,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "España",
-        "NUTS_NAME": "España",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'España',
+        NUTS_NAME: 'España',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [4.257760988604499, 39.964625973449067],
@@ -4610,21 +4612,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Suomi/Finland",
-        "NUTS_NAME": "Suomi/Finland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Suomi/Finland',
+        NUTS_NAME: 'Suomi/Finland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.929679999209856, 69.051904999170887],
@@ -4989,21 +4991,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IS",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "IS",
-        "NAME_LATN": "Ísland",
-        "NUTS_NAME": "Ísland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IS"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IS',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'IS',
+        NAME_LATN: 'Ísland',
+        NUTS_NAME: 'Ísland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IS'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-22.007397000437823, 63.835987498217662],
             [-22.130868498961153, 63.836597998766976],
@@ -5087,21 +5089,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Região Autónoma dos Açores",
-        "NUTS_NAME": "Região Autónoma dos Açores",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Região Autónoma dos Açores',
+        NUTS_NAME: 'Região Autónoma dos Açores',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT2'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-25.691902197378546, 37.843241170810835],
@@ -5214,21 +5216,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Portugal",
-        "NUTS_NAME": "Portugal",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Portugal',
+        NUTS_NAME: 'Portugal',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-8.165075500514568, 41.818301993781262],
@@ -5446,21 +5448,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "România",
-        "NUTS_NAME": "România",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'România',
+        NUTS_NAME: 'România',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.391166500679745, 47.589397496302446],
             [27.847124194656693, 47.116809186255132],
@@ -5569,21 +5571,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "Serbia",
-        "NUTS_NAME": "Srbija/?p????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'Serbia',
+        NUTS_NAME: 'Srbija/?p????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.264296000560623, 46.126373496082287],
             [20.662833000307224, 45.794115995370532],
@@ -5680,21 +5682,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Sverige",
-        "NUTS_NAME": "Sverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Sverige',
+        NUTS_NAME: 'Sverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.127289326106233, 65.739980010285848],
@@ -6062,21 +6064,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SI",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "SI",
-        "NAME_LATN": "Slovenija",
-        "NUTS_NAME": "Slovenija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SI"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SI',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'SI',
+        NAME_LATN: 'Slovenija',
+        NUTS_NAME: 'Slovenija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SI'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.370793500522485, 46.722243495491597],
             [16.596805000506155, 46.475902495494729],
@@ -6140,21 +6142,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SK",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "SK",
-        "NAME_LATN": "Slovensko",
-        "NUTS_NAME": "Slovensko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SK"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SK',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'SK',
+        NAME_LATN: 'Slovensko',
+        NUTS_NAME: 'Slovensko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SK'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.883929500594981, 49.204176996548647],
             [20.078031326471038, 49.198250368780243],
@@ -6222,21 +6224,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Türkiye",
-        "NUTS_NAME": "Türkiye",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Türkiye',
+        NUTS_NAME: 'Türkiye',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [35.513699499572951, 41.635979993565783],
@@ -6588,21 +6590,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AL0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "AL",
-        "NAME_LATN": "Shqipëria",
-        "NUTS_NAME": "Shqipëria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AL0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AL0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'AL',
+        NAME_LATN: 'Shqipëria',
+        NUTS_NAME: 'Shqipëria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AL0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.830997499433874, 42.46644549423619],
             [20.076299999805222, 42.555823494213783],
@@ -6662,21 +6664,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Ostösterreich",
-        "NUTS_NAME": "Ostösterreich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Ostösterreich',
+        NUTS_NAME: 'Ostösterreich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.753633500151654, 48.852178496440324],
             [16.290087292944591, 48.733949447328065],
@@ -6730,21 +6732,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Südösterreich",
-        "NUTS_NAME": "Südösterreich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Südösterreich',
+        NUTS_NAME: 'Südösterreich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.847909499899883, 47.568468496443856],
             [16.096021007415441, 47.498503215462826],
@@ -6799,21 +6801,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Westösterreich",
-        "NUTS_NAME": "Westösterreich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Westösterreich',
+        NUTS_NAME: 'Westösterreich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.691013999911906, 48.584301996127728],
             [14.864370450807447, 48.508544011665727],
@@ -6917,21 +6919,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL5",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion po?udniowo-zachodni",
-        "NUTS_NAME": "Makroregion po?udniowo-zachodni",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL5',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion po?udniowo-zachodni',
+        NUTS_NAME: 'Makroregion po?udniowo-zachodni',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.828371999991337, 51.572187997546322],
             [17.13896521154302, 51.578600188723868],
@@ -6993,21 +6995,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL6",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion pó?nocny",
-        "NUTS_NAME": "Makroregion pó?nocny",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL6',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion pó?nocny',
+        NUTS_NAME: 'Makroregion pó?nocny',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL6'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.950029500226581, 54.358310497599305],
             [19.341813494835506, 54.37011145783795],
@@ -7070,21 +7072,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL7",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion centralny",
-        "NUTS_NAME": "Makroregion centralny",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL7',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion centralny',
+        NUTS_NAME: 'Makroregion centralny',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL7'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.28918450001396, 52.392712497832711],
             [19.654232086651678, 52.261805963679613],
@@ -7141,21 +7143,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL8",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion wschodni",
-        "NUTS_NAME": "Makroregion wschodni",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL8"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL8',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion wschodni',
+        NUTS_NAME: 'Makroregion wschodni',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL8'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.588701999276161, 53.695928497376052],
             [23.862525847178418, 53.20144491340838],
@@ -7224,21 +7226,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UK",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "United Kingdom",
-        "NUTS_NAME": "United Kingdom",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UK"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UK',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'United Kingdom',
+        NUTS_NAME: 'United Kingdom',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UK'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [0.210513999514044, 51.49003599747747],
@@ -7926,21 +7928,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL6",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Kentriki Elláda",
-        "NUTS_NAME": "???????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL6',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Kentriki Elláda',
+        NUTS_NAME: '???????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL6'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.691159570737685, 38.789620268737728],
@@ -8207,21 +8209,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Norge",
-        "NUTS_NAME": "Norge",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NO"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Norge',
+        NUTS_NAME: 'Norge',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NO'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.929679999209856, 69.051904999170887],
@@ -9506,21 +9508,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Noroeste",
-        "NUTS_NAME": "Noroeste",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Noroeste',
+        NUTS_NAME: 'Noroeste',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-7.031837000476878, 43.544471494217667],
             [-6.292144824512931, 43.569913120952897],
@@ -9608,21 +9610,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Baden-Württemberg",
-        "NUTS_NAME": "Baden-Württemberg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Baden-Württemberg',
+        NUTS_NAME: 'Baden-Württemberg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.083723500104071, 49.54356099714758],
             [10.118327500680168, 49.47316949644361],
@@ -9707,21 +9709,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL9",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion województwo mazowieckie",
-        "NUTS_NAME": "Makroregion województwo mazowieckie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL9"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL9',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion województwo mazowieckie',
+        NUTS_NAME: 'Makroregion województwo mazowieckie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL9'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.408588999398951, 52.609689997138048],
             [22.599414348129059, 52.401076671617481],
@@ -9772,21 +9774,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Continente",
-        "NUTS_NAME": "Continente",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Continente',
+        NUTS_NAME: 'Continente',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-8.165075500514568, 41.818301993781262],
             [-8.051862500375565, 41.820613994277295],
@@ -9861,21 +9863,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Nisia Aigaiou, Kriti",
-        "NUTS_NAME": "????? ???????, ?????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Nisia Aigaiou, Kriti',
+        NUTS_NAME: '????? ???????, ?????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL4'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [27.886748905102348, 35.95838752522581],
@@ -10331,21 +10333,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE6",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Hamburg",
-        "NUTS_NAME": "Hamburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE6',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Hamburg',
+        NUTS_NAME: 'Hamburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE6'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [10.307954000673451, 53.433200997554202],
@@ -10373,21 +10375,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE7",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Hessen",
-        "NUTS_NAME": "Hessen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE7',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Hessen',
+        NUTS_NAME: 'Hessen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE7'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.732304499411679, 51.295231997530848],
             [9.798745045994741, 51.390716836534644],
@@ -10459,21 +10461,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE8",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Mecklenburg-Vorpommern",
-        "NUTS_NAME": "Mecklenburg-Vorpommern",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE8"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE8',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Mecklenburg-Vorpommern',
+        NUTS_NAME: 'Mecklenburg-Vorpommern',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE8'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.319396000138575, 54.193505997682863],
             [13.476296986289741, 54.112064824524083],
@@ -10543,21 +10545,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE9",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Niedersachsen",
-        "NUTS_NAME": "Niedersachsen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE9"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE9',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Niedersachsen',
+        NUTS_NAME: 'Niedersachsen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE9'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [9.018512499474596, 53.834840997629165],
@@ -10689,21 +10691,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEA",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Nordrhein-Westfalen",
-        "NUTS_NAME": "Nordrhein-Westfalen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEA"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEA',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Nordrhein-Westfalen',
+        NUTS_NAME: 'Nordrhein-Westfalen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEA'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.703009000686951, 52.500437997580157],
             [8.740156648118388, 52.400723574884957],
@@ -10781,21 +10783,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEB",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Rheinland-Pfalz",
-        "NUTS_NAME": "Rheinland-Pfalz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEB"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEB',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Rheinland-Pfalz',
+        NUTS_NAME: 'Rheinland-Pfalz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEB'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.954074013172526, 50.397076009147248],
             [8.022736638707991, 50.397076008681324],
@@ -10871,21 +10873,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEC",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Saarland",
-        "NUTS_NAME": "Saarland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEC"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEC',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Saarland',
+        NUTS_NAME: 'Saarland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEC'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.276622499449911, 49.548623496636615],
             [7.252588999464763, 49.431465496785002],
@@ -10913,21 +10915,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DED",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Sachsen",
-        "NUTS_NAME": "Sachsen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DED"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DED',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Sachsen',
+        NUTS_NAME: 'Sachsen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DED'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.210149999975565, 51.404735997299603],
             [13.395382295783669, 51.442055372963708],
@@ -10982,21 +10984,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEE",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Sachsen-Anhalt",
-        "NUTS_NAME": "Sachsen-Anhalt",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEE',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Sachsen-Anhalt',
+        NUTS_NAME: 'Sachsen-Anhalt',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEE'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.28354700014795, 51.091923997169879],
             [12.224169000650974, 50.942934996723899],
@@ -11043,21 +11045,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEF",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Schleswig-Holstein",
-        "NUTS_NAME": "Schleswig-Holstein",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEF"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEF',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Schleswig-Holstein',
+        NUTS_NAME: 'Schleswig-Holstein',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEF'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [11.27238208866105, 54.414706576905715],
@@ -11168,21 +11170,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEG",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Thüringen",
-        "NUTS_NAME": "Thüringen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEG"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEG',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Thüringen',
+        NUTS_NAME: 'Thüringen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEG'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.916059000101557, 51.61637399695568],
             [10.978113000381244, 51.426884997397657],
@@ -11241,21 +11243,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IT",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Italia",
-        "NUTS_NAME": "Italia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IT"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IT',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Italia',
+        NUTS_NAME: 'Italia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IT'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [12.477923999922094, 46.679835495586019],
@@ -11685,21 +11687,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LI",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "LI",
-        "NAME_LATN": "Liechtenstein",
-        "NUTS_NAME": "Liechtenstein",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LI"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LI',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'LI',
+        NAME_LATN: 'Liechtenstein',
+        NUTS_NAME: 'Liechtenstein',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LI'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.476047500074625, 47.0517974959292],
             [9.530749000090896, 47.270580996556561],
@@ -11711,21 +11713,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LT",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "LT",
-        "NAME_LATN": "Lietuva",
-        "NUTS_NAME": "Lietuva",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LT"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LT',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'LT',
+        NAME_LATN: 'Lietuva',
+        NUTS_NAME: 'Lietuva',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LT'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.821386499695777, 56.05217899783873],
             [25.894850280171063, 56.000129646994012],
@@ -11793,21 +11795,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LU",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "LU",
-        "NAME_LATN": "Luxembourg",
-        "NUTS_NAME": "Luxembourg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LU"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LU',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'LU',
+        NAME_LATN: 'Luxembourg',
+        NUTS_NAME: 'Luxembourg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LU'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.137662499619886, 50.129951497281404],
             [6.178724346460298, 49.962117241195635],
@@ -11828,21 +11830,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LV",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "LV",
-        "NAME_LATN": "Latvija",
-        "NUTS_NAME": "Latvija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LV"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LV',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'LV',
+        NAME_LATN: 'Latvija',
+        NUTS_NAME: 'Latvija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LV'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.351578999445003, 57.518236998693808],
             [27.528170903796607, 57.524648069873535],
@@ -11914,21 +11916,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ME",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "ME",
-        "NAME_LATN": "Crna Gora",
-        "NUTS_NAME": "???? ????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ME"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ME',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'ME',
+        NAME_LATN: 'Crna Gora',
+        NUTS_NAME: '???? ????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ME'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.22406900046791, 43.527540994792403],
             [19.670600758515146, 43.193946783430313],
@@ -11978,21 +11980,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "MK",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "MK",
-        "NAME_LATN": "Severna Makedonija",
-        "NUTS_NAME": "??????? ??????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "MK"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'MK',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'MK',
+        NAME_LATN: 'Severna Makedonija',
+        NUTS_NAME: '??????? ??????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'MK'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.3602064996787, 42.311156994566119],
             [22.44863238574203, 42.219320771939657],
@@ -12041,21 +12043,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "MT",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "MT",
-        "NAME_LATN": "Malta",
-        "NUTS_NAME": "Malta",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "MT"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'MT',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'MT',
+        NAME_LATN: 'Malta',
+        NUTS_NAME: 'Malta',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'MT'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [14.56429485388434, 35.85010106200405],
@@ -12081,21 +12083,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Nederland",
-        "NUTS_NAME": "Nederland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Nederland',
+        NUTS_NAME: 'Nederland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [6.874905000153132, 53.408012997643972],
@@ -12253,21 +12255,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Região Autónoma da Madeira",
-        "NUTS_NAME": "Região Autónoma da Madeira",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Região Autónoma da Madeira',
+        NUTS_NAME: 'Região Autónoma da Madeira',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-16.274668096591757, 33.053159296851277],
@@ -12305,21 +12307,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Macroregiunea Unu",
-        "NUTS_NAME": "Macroregiunea Unu",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Macroregiunea Unu',
+        NUTS_NAME: 'Macroregiunea Unu',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.493604999449726, 47.96781149634333],
             [23.569540918523899, 48.007152656179798],
@@ -12377,21 +12379,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Macroregiunea Doi",
-        "NUTS_NAME": "Macroregiunea Doi",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Macroregiunea Doi',
+        NUTS_NAME: 'Macroregiunea Doi',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.391166500679745, 47.589397496302446],
             [27.847124194656693, 47.116809186255132],
@@ -12466,21 +12468,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Macroregiunea Trei",
-        "NUTS_NAME": "Macroregiunea Trei",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Macroregiunea Trei',
+        NUTS_NAME: 'Macroregiunea Trei',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.321577500423597, 45.381088995619962],
             [25.452539000472509, 45.44134199532445],
@@ -12523,21 +12525,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Macroregiunea Patru",
-        "NUTS_NAME": "Macroregiunea Patru",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Macroregiunea Patru',
+        NUTS_NAME: 'Macroregiunea Patru',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.676575500256078, 46.405825495878716],
             [22.748716000449814, 46.351207495976873],
@@ -12606,21 +12608,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "Serbia - sever",
-        "NUTS_NAME": "?????? - ?????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'Serbia - sever',
+        NUTS_NAME: '?????? - ?????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.264296000560623, 46.126373496082287],
             [20.662833000307224, 45.794115995370532],
@@ -12676,21 +12678,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL5",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Voreia Elláda",
-        "NUTS_NAME": "?????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL5',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Voreia Elláda',
+        NUTS_NAME: '?????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL5'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [26.032758000076409, 40.730256993461822],
@@ -12838,21 +12840,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Bayern",
-        "NUTS_NAME": "Bayern",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Bayern',
+        NUTS_NAME: 'Bayern',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.610114999777604, 50.227994997295667],
             [10.729202000216434, 50.23000549662418],
@@ -12976,21 +12978,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Berlin",
-        "NUTS_NAME": "Berlin",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Berlin',
+        NUTS_NAME: 'Berlin',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.610827500639116, 52.544235497481971],
             [13.666980000406934, 52.474166997340561],
@@ -13009,21 +13011,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Brandenburg",
-        "NUTS_NAME": "Brandenburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Brandenburg',
+        NUTS_NAME: 'Brandenburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.412156999467966, 53.329635997646072],
             [14.430958339459993, 53.260491293298692],
@@ -13105,21 +13107,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE5",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Bremen",
-        "NUTS_NAME": "Bremen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE5',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Bremen',
+        NUTS_NAME: 'Bremen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE5'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [8.984185500349369, 53.126070997639921],
@@ -13145,21 +13147,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Danmark",
-        "NUTS_NAME": "Danmark",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Danmark',
+        NUTS_NAME: 'Danmark',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [15.153529288029183, 55.07770734147865],
@@ -13423,21 +13425,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EE0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "EE",
-        "NAME_LATN": "Eesti",
-        "NUTS_NAME": "Eesti",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EE0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EE0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'EE',
+        NAME_LATN: 'Eesti',
+        NUTS_NAME: 'Eesti',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EE0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [25.830159500077706, 59.564064498188394],
@@ -13565,21 +13567,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Attiki",
-        "NUTS_NAME": "??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Attiki',
+        NUTS_NAME: '??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [23.985036004080801, 36.813421997483566],
@@ -13688,21 +13690,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL",
-        "LEVL_CODE": 0,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Polska",
-        "NUTS_NAME": "Polska",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL',
+        LEVL_CODE: 0,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Polska',
+        NUTS_NAME: 'Polska',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.950029500226581, 54.358310497599305],
             [19.341813494835506, 54.37011145783795],
@@ -13836,21 +13838,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRI",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Nouvelle-Aquitaine",
-        "NUTS_NAME": "Nouvelle-Aquitaine",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRI"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRI',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Nouvelle-Aquitaine',
+        NUTS_NAME: 'Nouvelle-Aquitaine',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRI'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.891963999740432, 46.975820496187112],
@@ -13965,21 +13967,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRJ",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Occitanie",
-        "NUTS_NAME": "Occitanie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRJ"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRJ',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Occitanie',
+        NUTS_NAME: 'Occitanie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRJ'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [2.062908000370578, 44.976504495779317],
             [2.207472999805643, 44.615528994791781],
@@ -14075,21 +14077,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRK",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Auvergne-Rhône-Alpes",
-        "NUTS_NAME": "Auvergne-Rhône-Alpes",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRK"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRK',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Auvergne-Rhône-Alpes',
+        NUTS_NAME: 'Auvergne-Rhône-Alpes',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRK'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [3.629422499377198, 46.749456495790618],
             [3.645437451384308, 46.700752968565588],
@@ -14183,21 +14185,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRL",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Provence-Alpes-Côte d?Azur",
-        "NUTS_NAME": "Provence-Alpes-Côte d?Azur",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRL"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRL',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Provence-Alpes-Côte d?Azur',
+        NUTS_NAME: 'Provence-Alpes-Côte d?Azur',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRL'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.260570000624224, 45.126843995529754],
             [6.432313515516548, 45.063861102011693],
@@ -14265,21 +14267,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRM",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Corse",
-        "NUTS_NAME": "Corse",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRM"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRM',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Corse',
+        NUTS_NAME: 'Corse',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRM'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.591882485754677, 42.37444686818305],
             [8.761647897626968, 42.559055134733093],
@@ -14307,21 +14309,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRY",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "RUP FR ? Régions Ultrapériphériques Françaises",
-        "NUTS_NAME": "RUP FR ? Régions Ultrapériphériques Françaises",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRY"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRY',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'RUP FR ? Régions Ultrapériphériques Françaises',
+        NUTS_NAME: 'RUP FR ? Régions Ultrapériphériques Françaises',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRY'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [55.214714260201468, -21.038512085962349],
@@ -14458,21 +14460,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HR0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "HR",
-        "NAME_LATN": "Hrvatska",
-        "NUTS_NAME": "Hrvatska",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HR0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HR0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'HR',
+        NAME_LATN: 'Hrvatska',
+        NUTS_NAME: 'Hrvatska',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HR0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [16.596805000506155, 46.475902495494729],
@@ -14774,21 +14776,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Közép-Magyarország",
-        "NUTS_NAME": "Közép-Magyarország",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Közép-Magyarország',
+        NUTS_NAME: 'Közép-Magyarország',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.570937000042161, 47.734899496038786],
             [19.60717910384988, 47.667312399220577],
@@ -14821,21 +14823,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Dunántúl",
-        "NUTS_NAME": "Dunántúl",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Dunántúl',
+        NUTS_NAME: 'Dunántúl',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.893923000580738, 47.739456995883444],
             [18.31526945085109, 47.737109083006942],
@@ -14886,21 +14888,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Alföld és Észak",
-        "NUTS_NAME": "Alföld és Észak",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Alföld és Észak',
+        NUTS_NAME: 'Alföld és Észak',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.121077500263809, 48.378311496175904],
             [22.155306000080124, 48.403396496694697],
@@ -14976,21 +14978,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IE0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IE",
-        "NAME_LATN": "Ireland",
-        "NUTS_NAME": "Ireland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IE0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IE0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IE',
+        NAME_LATN: 'Ireland',
+        NUTS_NAME: 'Ireland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IE0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-7.256068499430945, 55.06703499803546],
@@ -15122,21 +15124,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IS0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IS",
-        "NAME_LATN": "Ísland",
-        "NUTS_NAME": "Ísland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IS0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IS0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IS',
+        NAME_LATN: 'Ísland',
+        NUTS_NAME: 'Ísland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IS0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-22.007397000437823, 63.835987498217662],
             [-22.130868498961153, 63.836597998766976],
@@ -15220,21 +15222,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITC",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Nord-Ovest",
-        "NUTS_NAME": "Nord-Ovest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITC"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITC',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Nord-Ovest',
+        NUTS_NAME: 'Nord-Ovest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITC'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.840176500408758, 45.832758495488712],
             [10.644357039291835, 45.610923839823464],
@@ -15332,21 +15334,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Sud",
-        "NUTS_NAME": "Sud",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Sud',
+        NUTS_NAME: 'Sud',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [17.388980999606922, 40.891863493691808],
@@ -15469,21 +15471,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITG",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Isole",
-        "NUTS_NAME": "Isole",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITG"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITG',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Isole',
+        NUTS_NAME: 'Isole',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITG'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [15.258082500463704, 37.807223991814908],
@@ -15625,21 +15627,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITH",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Nord-Est",
-        "NUTS_NAME": "Nord-Est",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITH"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITH',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Nord-Est',
+        NUTS_NAME: 'Nord-Est',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITH'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.477923999922094, 46.679835495586019],
             [12.690635000479615, 46.656971996168402],
@@ -15752,21 +15754,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITI",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Centro (IT)",
-        "NUTS_NAME": "Centro (IT)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITI"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITI',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Centro (IT)',
+        NUTS_NAME: 'Centro (IT)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITI'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [10.47014900012198, 44.226040994706956],
@@ -15892,21 +15894,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LI0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "LI",
-        "NAME_LATN": "Liechtenstein",
-        "NUTS_NAME": "Liechtenstein",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LI0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LI0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'LI',
+        NAME_LATN: 'Liechtenstein',
+        NUTS_NAME: 'Liechtenstein',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LI0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.476047500074625, 47.0517974959292],
             [9.530749000090896, 47.270580996556561],
@@ -15918,21 +15920,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Norge",
-        "NUTS_NAME": "Norge",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NO0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Norge',
+        NUTS_NAME: 'Norge',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NO0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.929679999209856, 69.051904999170887],
@@ -17217,21 +17219,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ05",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "Severovýchod",
-        "NUTS_NAME": "Severovýchod",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ05"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ05',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'Severovýchod',
+        NUTS_NAME: 'Severovýchod',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ05'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.535267500044839, 50.779375997530394],
             [15.798259409783693, 50.742358593043996],
@@ -17276,21 +17278,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ06",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "Jihovýchod",
-        "NUTS_NAME": "Jihovýchod",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ06"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ06',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'Jihovýchod',
+        NUTS_NAME: 'Jihovýchod',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ06'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.496953000654955, 49.861184496591896],
             [16.393627499791705, 49.58061049709174],
@@ -17321,21 +17323,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ07",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "St?ední Morava",
-        "NUTS_NAME": "St?ední Morava",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ07"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ07',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'St?ední Morava',
+        NUTS_NAME: 'St?ední Morava',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ07'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.403595499962307, 49.39674549673996],
             [18.32243600040815, 49.315058997016216],
@@ -17366,21 +17368,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ08",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "Moravskoslezsko",
-        "NUTS_NAME": "Moravskoslezsko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ08"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ08',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'Moravskoslezsko',
+        NUTS_NAME: 'Moravskoslezsko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ08'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.035060999523875, 50.065771996592588],
             [18.326938465239255, 49.928497472128896],
@@ -17406,21 +17408,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Stuttgart",
-        "NUTS_NAME": "Stuttgart",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Stuttgart',
+        NUTS_NAME: 'Stuttgart',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.083723500104071, 49.54356099714758],
             [10.118327500680168, 49.47316949644361],
@@ -17465,21 +17467,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Karlsruhe",
-        "NUTS_NAME": "Karlsruhe",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Karlsruhe',
+        NUTS_NAME: 'Karlsruhe',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.603822999971813, 49.426577997001004],
             [9.443491500656588, 49.364336996997544],
@@ -17529,21 +17531,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE13",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Freiburg",
-        "NUTS_NAME": "Freiburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE13"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE13',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Freiburg',
+        NUTS_NAME: 'Freiburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE13'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.303991999462914, 48.349094496200514],
             [8.426823568591821, 48.31436931787632],
@@ -17587,21 +17589,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE14",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Tübingen",
-        "NUTS_NAME": "Tübingen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE14"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE14',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Tübingen',
+        NUTS_NAME: 'Tübingen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE14'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.944071500565173, 48.631755496960515],
             [10.230779500468905, 48.510510996147786],
@@ -17639,21 +17641,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Oberbayern",
-        "NUTS_NAME": "Oberbayern",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Oberbayern',
+        NUTS_NAME: 'Oberbayern',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [11.599306499332656, 48.95149699681923],
             [11.715299705517401, 48.915504550359579],
@@ -17716,21 +17718,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Niederbayern",
-        "NUTS_NAME": "Niederbayern",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Niederbayern',
+        NUTS_NAME: 'Niederbayern',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.839507000571981, 48.771604996853625],
             [13.796107000263762, 48.71360049658864],
@@ -17772,21 +17774,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE23",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Oberpfalz",
-        "NUTS_NAME": "Oberpfalz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE23"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE23',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Oberpfalz',
+        NUTS_NAME: 'Oberpfalz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE23'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.170908000297221, 49.173579496240258],
             [13.117511130590309, 49.126140219448374],
@@ -17827,21 +17829,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE24",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Oberfranken",
-        "NUTS_NAME": "Oberfranken",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE24"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE24',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Oberfranken',
+        NUTS_NAME: 'Oberfranken',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE24'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [11.481568000454336, 50.431621496745827],
             [11.60454003864173, 50.397076008739241],
@@ -17880,21 +17882,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE25",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Mittelfranken",
-        "NUTS_NAME": "Mittelfranken",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE25"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE25',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Mittelfranken',
+        NUTS_NAME: 'Mittelfranken',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE25'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.927335499913376, 49.768429996854465],
             [11.09480782334737, 49.607798297686692],
@@ -17933,21 +17935,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE26",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Unterfranken",
-        "NUTS_NAME": "Unterfranken",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE26"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE26',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Unterfranken',
+        NUTS_NAME: 'Unterfranken',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE26'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.610114999777604, 50.227994997295667],
             [10.729202000216434, 50.23000549662418],
@@ -17992,21 +17994,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE27",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Schwaben",
-        "NUTS_NAME": "Schwaben",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE27"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE27',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Schwaben',
+        NUTS_NAME: 'Schwaben',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE27'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [11.005941499722576, 48.821882996543323],
             [11.022985999410089, 48.620171496716971],
@@ -18055,21 +18057,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE30",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Berlin",
-        "NUTS_NAME": "Berlin",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE30"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE30',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Berlin',
+        NUTS_NAME: 'Berlin',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE30'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.610827500639116, 52.544235497481971],
             [13.666980000406934, 52.474166997340561],
@@ -18088,21 +18090,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEC0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Saarland",
-        "NUTS_NAME": "Saarland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEC0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEC0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Saarland',
+        NUTS_NAME: 'Saarland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEC0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.276622499449911, 49.548623496636615],
             [7.252588999464763, 49.431465496785002],
@@ -18130,21 +18132,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DED2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Dresden",
-        "NUTS_NAME": "Dresden",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DED2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DED2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Dresden',
+        NUTS_NAME: 'Dresden',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DED2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.974182999955941, 51.363949996888238],
             [15.022820755663066, 51.275767938262966],
@@ -18179,21 +18181,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DED4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Chemnitz",
-        "NUTS_NAME": "Chemnitz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DED4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DED4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Chemnitz',
+        NUTS_NAME: 'Chemnitz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DED4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.501845999425262, 50.633642997323605],
             [13.056368098121364, 50.501304515648179],
@@ -18225,21 +18227,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DED5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Leipzig",
-        "NUTS_NAME": "Leipzig",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DED5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DED5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Leipzig',
+        NUTS_NAME: 'Leipzig',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DED5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.617354999330333, 50.980792997235419],
             [12.441382435639079, 51.078941072297113],
@@ -18261,21 +18263,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEE0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Sachsen-Anhalt",
-        "NUTS_NAME": "Sachsen-Anhalt",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEE0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEE0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Sachsen-Anhalt',
+        NUTS_NAME: 'Sachsen-Anhalt',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEE0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.28354700014795, 51.091923997169879],
             [12.224169000650974, 50.942934996723899],
@@ -18322,21 +18324,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEF0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Schleswig-Holstein",
-        "NUTS_NAME": "Schleswig-Holstein",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEF0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEF0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Schleswig-Holstein',
+        NUTS_NAME: 'Schleswig-Holstein',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEF0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [11.27238208866105, 54.414706576905715],
@@ -18447,21 +18449,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEG0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Thüringen",
-        "NUTS_NAME": "Thüringen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEG0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEG0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Thüringen',
+        NUTS_NAME: 'Thüringen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEG0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.916059000101557, 51.61637399695568],
             [10.978113000381244, 51.426884997397657],
@@ -18520,21 +18522,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK01",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Hovedstaden",
-        "NUTS_NAME": "Hovedstaden",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK01"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK01',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Hovedstaden',
+        NUTS_NAME: 'Hovedstaden',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK01'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [15.153529288029183, 55.07770734147865],
@@ -18591,21 +18593,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Noreste",
-        "NUTS_NAME": "Noreste",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Noreste',
+        NUTS_NAME: 'Noreste',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.412846999415546, 43.321082994405934],
             [-2.173186381860775, 43.292991399967377],
@@ -18719,21 +18721,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Comunidad de Madrid",
-        "NUTS_NAME": "Comunidad de Madrid",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Comunidad de Madrid',
+        NUTS_NAME: 'Comunidad de Madrid',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-3.067688999741003, 40.157884993316806],
@@ -18776,21 +18778,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Centro (ES)",
-        "NUTS_NAME": "Centro (ES)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Centro (ES)',
+        NUTS_NAME: 'Centro (ES)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES4'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-4.841038500280846, 43.180709494911049],
@@ -18997,21 +18999,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES5",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Este",
-        "NUTS_NAME": "Este",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES5',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Este',
+        NUTS_NAME: 'Este',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES5'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [4.257760988604499, 39.964625973449067],
@@ -19207,21 +19209,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES6",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Sur",
-        "NUTS_NAME": "Sur",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES6',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Sur',
+        NUTS_NAME: 'Sur',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES6'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.762135500042376, 37.847007992076797],
@@ -19339,21 +19341,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES7",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Canarias",
-        "NUTS_NAME": "Canarias",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES7',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Canarias',
+        NUTS_NAME: 'Canarias',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES7'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-13.739988966156515, 28.902985956920986],
@@ -19480,21 +19482,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Oberösterreich",
-        "NUTS_NAME": "Oberösterreich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Oberösterreich',
+        NUTS_NAME: 'Oberösterreich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.691013999911906, 48.584301996127728],
             [14.864370450807447, 48.508544011665727],
@@ -19543,21 +19545,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Salzburg",
-        "NUTS_NAME": "Salzburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Salzburg',
+        NUTS_NAME: 'Salzburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT32'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.303820999711636, 48.007824496265165],
             [13.293887325080219, 47.851110271516319],
@@ -19597,21 +19599,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Tirol",
-        "NUTS_NAME": "Tirol",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Tirol',
+        NUTS_NAME: 'Tirol',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT33'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [12.690635000479615, 46.656971996168402],
@@ -19668,21 +19670,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LT0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "LT",
-        "NAME_LATN": "Lietuva",
-        "NUTS_NAME": "Lietuva",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LT0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LT0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'LT',
+        NAME_LATN: 'Lietuva',
+        NUTS_NAME: 'Lietuva',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LT0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.821386499695777, 56.05217899783873],
             [25.894850280171063, 56.000129646994012],
@@ -19750,21 +19752,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LU0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "LU",
-        "NAME_LATN": "Luxembourg",
-        "NUTS_NAME": "Luxembourg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LU0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LU0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'LU',
+        NAME_LATN: 'Luxembourg',
+        NUTS_NAME: 'Luxembourg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LU0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.137662499619886, 50.129951497281404],
             [6.178724346460298, 49.962117241195635],
@@ -19785,21 +19787,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LV0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "LV",
-        "NAME_LATN": "Latvija",
-        "NUTS_NAME": "Latvija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LV0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LV0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'LV',
+        NAME_LATN: 'Latvija',
+        NUTS_NAME: 'Latvija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LV0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.351578999445003, 57.518236998693808],
             [27.528170903796607, 57.524648069873535],
@@ -19871,21 +19873,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ME0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "ME",
-        "NAME_LATN": "Crna Gora",
-        "NUTS_NAME": "???? ????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ME0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ME0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'ME',
+        NAME_LATN: 'Crna Gora',
+        NUTS_NAME: '???? ????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ME0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.22406900046791, 43.527540994792403],
             [19.670600758515146, 43.193946783430313],
@@ -19935,21 +19937,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "MK0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "MK",
-        "NAME_LATN": "Severna Makedonija",
-        "NUTS_NAME": "??????? ??????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "MK0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'MK0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'MK',
+        NAME_LATN: 'Severna Makedonija',
+        NUTS_NAME: '??????? ??????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'MK0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.3602064996787, 42.311156994566119],
             [22.44863238574203, 42.219320771939657],
@@ -19998,21 +20000,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "MT0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "MT",
-        "NAME_LATN": "Malta",
-        "NUTS_NAME": "Malta",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "MT0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'MT0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'MT',
+        NAME_LATN: 'Malta',
+        NUTS_NAME: 'Malta',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'MT0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [14.56429485388434, 35.85010106200405],
@@ -20038,21 +20040,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Noord-Nederland",
-        "NUTS_NAME": "Noord-Nederland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Noord-Nederland',
+        NUTS_NAME: 'Noord-Nederland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [6.874905000153132, 53.408012997643972],
@@ -20143,21 +20145,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Oost-Nederland",
-        "NUTS_NAME": "Oost-Nederland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Oost-Nederland',
+        NUTS_NAME: 'Oost-Nederland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.629429500159122, 52.669658497182951],
             [6.709732500094646, 52.627823497678328],
@@ -20196,21 +20198,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "West-Nederland",
-        "NUTS_NAME": "West-Nederland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'West-Nederland',
+        NUTS_NAME: 'West-Nederland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [5.164383500193087, 53.00091049767596],
@@ -20273,21 +20275,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Zuid-Nederland",
-        "NUTS_NAME": "Zuid-Nederland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Zuid-Nederland',
+        NUTS_NAME: 'Zuid-Nederland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.953192000131062, 51.747845997395771],
             [6.195192946408711, 51.518806025368932],
@@ -20332,21 +20334,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion po?udniowy",
-        "NUTS_NAME": "Makroregion po?udniowy",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion po?udniowy',
+        NUTS_NAME: 'Makroregion po?udniowy',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.243142499308615, 51.036844496787168],
             [19.342965887179094, 51.024115100782488],
@@ -20407,21 +20409,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Makroregion pó?nocno-zachodni",
-        "NUTS_NAME": "Makroregion pó?nocno-zachodni",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Makroregion pó?nocno-zachodni',
+        NUTS_NAME: 'Makroregion pó?nocno-zachodni',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.7927645005629, 53.98555049789752],
             [16.982053499435402, 53.904909498132902],
@@ -20514,21 +20516,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CY00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CY",
-        "NAME_LATN": "Kýpros",
-        "NUTS_NAME": "??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CY00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CY00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CY',
+        NAME_LATN: 'Kýpros',
+        NUTS_NAME: '??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CY00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [32.273818562485943, 35.066489113488302],
             [32.288836855354532, 35.105032402770952],
@@ -20584,21 +20586,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ01",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "Praha",
-        "NUTS_NAME": "Praha",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ01"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ01',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'Praha',
+        NUTS_NAME: 'Praha',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ01'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.271791188917739, 50.09796129024059],
             [14.303311172485738, 50.12882304656609],
@@ -20615,21 +20617,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "St?ední ?echy",
-        "NUTS_NAME": "St?ední ?echy",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'St?ední ?echy',
+        NUTS_NAME: 'St?ední ?echy',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.146770500684715, 50.522942497214515],
             [15.136091194132057, 50.463983775618686],
@@ -20675,21 +20677,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "Jihozápad",
-        "NUTS_NAME": "Jihozápad",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'Jihozápad',
+        NUTS_NAME: 'Jihozápad',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ03'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.407053500541219, 50.089616996670571],
             [13.80017575830326, 49.918141336681735],
@@ -20734,21 +20736,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CZ04",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CZ",
-        "NAME_LATN": "Severozápad",
-        "NUTS_NAME": "Severozápad",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CZ04"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CZ04',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CZ',
+        NAME_LATN: 'Severozápad',
+        NUTS_NAME: 'Severozápad',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CZ04'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.486485499773602, 50.505026997165473],
             [14.375079609304407, 50.397076008754368],
@@ -20784,21 +20786,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Manner-Suomi",
-        "NUTS_NAME": "Manner-Suomi",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Manner-Suomi',
+        NUTS_NAME: 'Manner-Suomi',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.929679999209856, 69.051904999170887],
@@ -21085,21 +21087,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Åland",
-        "NUTS_NAME": "Åland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Åland',
+        NUTS_NAME: 'Åland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI2'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [21.120024620748339, 60.534953528059482],
@@ -21182,21 +21184,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FR1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Ile-de-France",
-        "NUTS_NAME": "Ile-de-France",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FR1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FR1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Ile-de-France',
+        NUTS_NAME: 'Ile-de-France',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FR1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.704358999510012, 49.232196996596315],
             [1.788417110949617, 49.178038400667425],
@@ -21228,21 +21230,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRB",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Centre ? Val de Loire",
-        "NUTS_NAME": "Centre ? Val de Loire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRB"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRB',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Centre ? Val de Loire',
+        NUTS_NAME: 'Centre ? Val de Loire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRB'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.92214650023891, 48.457599496805798],
             [1.994089999704309, 48.286583996237248],
@@ -21297,21 +21299,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRC",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Bourgogne-Franche-Comté",
-        "NUTS_NAME": "Bourgogne-Franche-Comté",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRC"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRC',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Bourgogne-Franche-Comté',
+        NUTS_NAME: 'Bourgogne-Franche-Comté',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRC'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.293421500479365, 47.925673496646823],
             [4.704233000512169, 48.020234996141696],
@@ -21381,21 +21383,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRD",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Normandie",
-        "NUTS_NAME": "Normandie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRD"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRD',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Normandie',
+        NUTS_NAME: 'Normandie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRD'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.71393049941842, 49.409224996307238],
             [1.765902152876892, 49.307268405267223],
@@ -21500,21 +21502,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRE",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Hauts-de-France",
-        "NUTS_NAME": "Hauts-de-France",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRE',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Hauts-de-France',
+        NUTS_NAME: 'Hauts-de-France',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRE'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [2.863276000308943, 50.708343496973278],
             [3.018708499688168, 50.773532996727432],
@@ -21569,21 +21571,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRF",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Grand Est",
-        "NUTS_NAME": "Grand Est",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRF"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRF',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Grand Est',
+        NUTS_NAME: 'Grand Est',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRF'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.969431000343631, 49.801825996879522],
             [5.15373850054156, 49.71792599706064],
@@ -21661,21 +21663,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRG",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Pays de la Loire",
-        "NUTS_NAME": "Pays de la Loire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRG"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRG',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Pays de la Loire',
+        NUTS_NAME: 'Pays de la Loire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRG'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.05452700041042, 48.382004496511854],
@@ -21740,21 +21742,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRH",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Bretagne",
-        "NUTS_NAME": "Bretagne",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRH"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRH',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Bretagne',
+        NUTS_NAME: 'Bretagne',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRH'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-2.093750417809154, 48.594154694614744],
@@ -21813,21 +21815,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SI0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "SI",
-        "NAME_LATN": "Slovenija",
-        "NUTS_NAME": "Slovenija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SI0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SI0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'SI',
+        NAME_LATN: 'Slovenija',
+        NUTS_NAME: 'Slovenija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SI0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.370793500522485, 46.722243495491597],
             [16.596805000506155, 46.475902495494729],
@@ -21891,21 +21893,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SK0",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "SK",
-        "NAME_LATN": "Slovensko",
-        "NUTS_NAME": "Slovensko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SK0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SK0',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'SK',
+        NAME_LATN: 'Slovensko',
+        NUTS_NAME: 'Slovensko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SK0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.883929500594981, 49.204176996548647],
             [20.078031326471038, 49.198250368780243],
@@ -21973,21 +21975,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "?stanbul",
-        "NUTS_NAME": "?stanbul",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: '?stanbul',
+        NUTS_NAME: '?stanbul',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [29.3425175005178, 40.807657493736535],
@@ -22015,21 +22017,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Bat? Marmara",
-        "NUTS_NAME": "Bat? Marmara",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Bat? Marmara',
+        NUTS_NAME: 'Bat? Marmara',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR2'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.164778999791718, 40.3956129929581],
@@ -22164,21 +22166,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Ege",
-        "NUTS_NAME": "Ege",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Ege',
+        NUTS_NAME: 'Ege',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [31.619732500493651, 39.103055493024499],
@@ -22302,21 +22304,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR4",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Do?u Marmara",
-        "NUTS_NAME": "Do?u Marmara",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR4',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Do?u Marmara',
+        NUTS_NAME: 'Do?u Marmara',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [30.98205550022751, 41.072602493819858],
             [31.295656500573916, 41.11631999357337],
@@ -22383,21 +22385,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR5",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Bat? Anadolu",
-        "NUTS_NAME": "Bat? Anadolu",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR5',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Bat? Anadolu',
+        NUTS_NAME: 'Bat? Anadolu',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [33.695422000495057, 40.332241493141346],
             [33.580869867732694, 40.190889632324236],
@@ -22470,21 +22472,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR6",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Akdeniz",
-        "NUTS_NAME": "Akdeniz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR6',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Akdeniz',
+        NUTS_NAME: 'Akdeniz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR6'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [37.638667500415238, 37.931166992100302],
             [37.452100269764891, 37.650799632398162],
@@ -22589,21 +22591,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Syddanmark",
-        "NUTS_NAME": "Syddanmark",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Syddanmark',
+        NUTS_NAME: 'Syddanmark',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK03'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [10.735030211118518, 54.749555056481533],
@@ -22692,21 +22694,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK04",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Midtjylland",
-        "NUTS_NAME": "Midtjylland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK04"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK04',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Midtjylland',
+        NUTS_NAME: 'Midtjylland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK04'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [11.594677980865335, 56.744163391416002],
@@ -22785,21 +22787,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK05",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Nordjylland",
-        "NUTS_NAME": "Nordjylland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK05"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK05',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Nordjylland',
+        NUTS_NAME: 'Nordjylland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK05'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [11.222939155801981, 57.27149660352444],
@@ -22848,21 +22850,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EE00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EE",
-        "NAME_LATN": "Eesti",
-        "NUTS_NAME": "Eesti",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EE00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EE00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EE',
+        NAME_LATN: 'Eesti',
+        NUTS_NAME: 'Eesti',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EE00'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [25.830159500077706, 59.564064498188394],
@@ -22990,21 +22992,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL30",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Attiki",
-        "NUTS_NAME": "A?????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL30"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL30',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Attiki',
+        NUTS_NAME: 'A?????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL30'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [23.985036004080801, 36.813421997483566],
@@ -23113,21 +23115,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Voreio Aigaio",
-        "NUTS_NAME": "?????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Voreio Aigaio',
+        NUTS_NAME: '?????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL41'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [26.981815237495276, 37.713650742889662],
@@ -23224,21 +23226,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE40",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Brandenburg",
-        "NUTS_NAME": "Brandenburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE40"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE40',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Brandenburg',
+        NUTS_NAME: 'Brandenburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE40'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.412156999467966, 53.329635997646072],
             [14.430958339459993, 53.260491293298692],
@@ -23320,21 +23322,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE50",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Bremen",
-        "NUTS_NAME": "Bremen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE50"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE50',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Bremen',
+        NUTS_NAME: 'Bremen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE50'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [8.984185500349369, 53.126070997639921],
@@ -23360,21 +23362,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE60",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Hamburg",
-        "NUTS_NAME": "Hamburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE60"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE60',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Hamburg',
+        NUTS_NAME: 'Hamburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE60'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [10.307954000673451, 53.433200997554202],
@@ -23402,21 +23404,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE71",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Darmstadt",
-        "NUTS_NAME": "Darmstadt",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE71"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE71',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Darmstadt',
+        NUTS_NAME: 'Darmstadt',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE71'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.286734999994986, 50.437297996947549],
             [9.372157860581709, 50.402578869704016],
@@ -23467,21 +23469,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE72",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Gießen",
-        "NUTS_NAME": "Gießen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE72"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE72',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Gießen',
+        NUTS_NAME: 'Gießen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE72'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.479112999449118, 50.440685497156416],
             [9.372157860581709, 50.402578869704016],
@@ -23515,21 +23517,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE73",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Kassel",
-        "NUTS_NAME": "Kassel",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE73"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE73',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Kassel',
+        NUTS_NAME: 'Kassel',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE73'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.732304499411679, 51.295231997530848],
             [9.798745045994741, 51.390716836534644],
@@ -23572,21 +23574,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE80",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Mecklenburg-Vorpommern",
-        "NUTS_NAME": "Mecklenburg-Vorpommern",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE80"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE80',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Mecklenburg-Vorpommern',
+        NUTS_NAME: 'Mecklenburg-Vorpommern',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE80'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.319396000138575, 54.193505997682863],
             [13.476296986289741, 54.112064824524083],
@@ -23656,21 +23658,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE91",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Braunschweig",
-        "NUTS_NAME": "Braunschweig",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE91"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE91',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Braunschweig',
+        NUTS_NAME: 'Braunschweig',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE91'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.561226999823303, 52.00406599700684],
             [10.701371999540703, 51.642187497155298],
@@ -23712,21 +23714,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE92",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Hannover",
-        "NUTS_NAME": "Hannover",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE92"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE92',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Hannover',
+        NUTS_NAME: 'Hannover',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE92'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.273742500572006, 52.510639997264462],
             [10.291911500371349, 52.447902497438534],
@@ -23770,21 +23772,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKJ",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "South East (England)",
-        "NUTS_NAME": "South East (England)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKJ"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKJ',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'South East (England)',
+        NUTS_NAME: 'South East (England)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKJ'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.591772500664973, 52.110690997752009],
@@ -23871,21 +23873,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKK",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "South West (England)",
-        "NUTS_NAME": "South West (England)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKK"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKK',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'South West (England)',
+        NUTS_NAME: 'South West (England)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKK'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-1.66573250058384, 51.987491497033275],
@@ -23968,21 +23970,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKL",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Wales",
-        "NUTS_NAME": "Wales",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKL"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKL',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Wales',
+        NUTS_NAME: 'Wales',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKL'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-2.726823500222554, 52.983295497091106],
@@ -24048,21 +24050,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKM",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Scotland",
-        "NUTS_NAME": "Scotland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKM"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKM',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Scotland',
+        NUTS_NAME: 'Scotland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKM'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.981919860989055, 60.575910267946277],
@@ -24441,21 +24443,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKN",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Northern Ireland",
-        "NUTS_NAME": "Northern Ireland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKN"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKN',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Northern Ireland',
+        NUTS_NAME: 'Northern Ireland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKN'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-5.976527499446945, 55.056598498250416],
             [-5.963875282860586, 54.984176405669665],
@@ -24507,21 +24509,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AL01",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AL",
-        "NAME_LATN": "Veri",
-        "NUTS_NAME": "Veri",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AL01"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AL01',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AL',
+        NAME_LATN: 'Veri',
+        NUTS_NAME: 'Veri',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AL01'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.830997499433874, 42.46644549423619],
             [20.076299999805222, 42.555823494213783],
@@ -24567,21 +24569,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AL02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AL",
-        "NAME_LATN": "Qender",
-        "NUTS_NAME": "Qender",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AL02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AL02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AL',
+        NAME_LATN: 'Qender',
+        NUTS_NAME: 'Qender',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AL02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.908352500532683, 41.511927993641009],
             [20.236168500524077, 41.348487493993929],
@@ -24607,21 +24609,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AL03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AL",
-        "NAME_LATN": "Jug",
-        "NUTS_NAME": "Jug",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AL03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AL03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AL',
+        NAME_LATN: 'Jug',
+        NUTS_NAME: 'Jug',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AL03'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.980204500478465, 40.855664993278687],
             [21.056068499987102, 40.616695493724229],
@@ -24657,21 +24659,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Burgenland",
-        "NUTS_NAME": "Burgenland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Burgenland',
+        NUTS_NAME: 'Burgenland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.066741000484658, 48.118681496462514],
             [17.160797500302092, 48.006656496149581],
@@ -24704,21 +24706,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Niederösterreich",
-        "NUTS_NAME": "Niederösterreich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Niederösterreich',
+        NUTS_NAME: 'Niederösterreich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.753633500151654, 48.852178496440324],
             [16.290087292944591, 48.733949447328065],
@@ -24773,21 +24775,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT13",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Wien",
-        "NUTS_NAME": "Wien",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT13"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT13',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Wien',
+        NUTS_NAME: 'Wien',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT13'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.57803600028894, 48.143311996660302],
             [16.185772742210482, 48.172396702071694],
@@ -24800,21 +24802,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Kärnten",
-        "NUTS_NAME": "Kärnten",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Kärnten',
+        NUTS_NAME: 'Kärnten',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.656082999472401, 47.099700996038983],
             [13.079015115086095, 47.031272854180131],
@@ -24846,21 +24848,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Steiermark",
-        "NUTS_NAME": "Steiermark",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Steiermark',
+        NUTS_NAME: 'Steiermark',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.847909499899883, 47.568468496443856],
             [16.096021007415441, 47.498503215462826],
@@ -24907,21 +24909,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES51",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Cataluña",
-        "NUTS_NAME": "Cataluña",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES51"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES51',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Cataluña',
+        NUTS_NAME: 'Cataluña',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES51'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.442566000320034, 42.603667994258458],
             [1.468524300046592, 42.443990431146077],
@@ -24985,21 +24987,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES52",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Comunitat Valenciana",
-        "NUTS_NAME": "Comunitat Valenciana",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES52"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES52',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Comunitat Valenciana',
+        NUTS_NAME: 'Comunitat Valenciana',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES52'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [0.170789499520685, 40.732836993588705],
@@ -25063,21 +25065,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "AT34",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "AT",
-        "NAME_LATN": "Vorarlberg",
-        "NUTS_NAME": "Vorarlberg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "AT34"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'AT34',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'AT',
+        NAME_LATN: 'Vorarlberg',
+        NUTS_NAME: 'Vorarlberg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'AT34'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.144974499876922, 46.851009495975099],
             [9.91065900470071, 46.930155067128624],
@@ -25100,21 +25102,23 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE10",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest",
-        "NUTS_NAME": "Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE10"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE10',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN:
+          'Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest',
+        NUTS_NAME:
+          'Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE10'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.283083476551353, 50.813608926824941],
             [4.288827063243012, 50.891802845432593],
@@ -25127,21 +25131,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Antwerpen",
-        "NUTS_NAME": "Prov. Antwerpen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Antwerpen',
+        NUTS_NAME: 'Prov. Antwerpen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.759925999755641, 51.502464496830974],
             [4.864001758865824, 51.433621197614194],
@@ -25169,21 +25173,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Limburg (BE)",
-        "NUTS_NAME": "Prov. Limburg (BE)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Limburg (BE)',
+        NUTS_NAME: 'Prov. Limburg (BE)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE22'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [5.892072999688422, 50.755237497279481],
@@ -25218,21 +25222,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE23",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Oost-Vlaanderen",
-        "NUTS_NAME": "Prov. Oost-Vlaanderen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE23"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE23',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Oost-Vlaanderen',
+        NUTS_NAME: 'Prov. Oost-Vlaanderen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE23'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.242048999846443, 51.353966997339271],
             [4.307828500505353, 51.125034497344167],
@@ -25263,21 +25267,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE24",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Vlaams-Brabant",
-        "NUTS_NAME": "Prov. Vlaams-Brabant",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE24"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE24',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Vlaams-Brabant',
+        NUTS_NAME: 'Prov. Vlaams-Brabant',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE24'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.103480500214247, 50.70906399718848],
             [5.019566499950854, 50.750761996660735],
@@ -25311,21 +25315,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE25",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. West-Vlaanderen",
-        "NUTS_NAME": "Prov. West-Vlaanderen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE25"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE25',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. West-Vlaanderen',
+        NUTS_NAME: 'Prov. West-Vlaanderen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE25'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [3.460305499575794, 50.765898997342667],
             [3.324117999392824, 50.722308996838414],
@@ -25356,21 +25360,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Brabant Wallon",
-        "NUTS_NAME": "Prov. Brabant Wallon",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Brabant Wallon',
+        NUTS_NAME: 'Prov. Brabant Wallon',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.019566499950854, 50.750761996660735],
             [4.983340999290635, 50.642242497334919],
@@ -25389,21 +25393,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Hainaut",
-        "NUTS_NAME": "Prov. Hainaut",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Hainaut',
+        NUTS_NAME: 'Prov. Hainaut',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE32'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [3.460305499575794, 50.765898997342667],
@@ -25454,21 +25458,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Liège",
-        "NUTS_NAME": "Prov. Liège",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Liège',
+        NUTS_NAME: 'Prov. Liège',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE33'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.68200050030527, 50.757446496680622],
             [5.819051999643722, 50.714557496899083],
@@ -25503,21 +25507,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE34",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Luxembourg (BE)",
-        "NUTS_NAME": "Prov. Luxembourg (BE)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE34"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE34',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Luxembourg (BE)',
+        NUTS_NAME: 'Prov. Luxembourg (BE)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE34'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.675838499925735, 50.368514996610756],
             [5.721549500234967, 50.261989497242553],
@@ -25545,21 +25549,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BE35",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BE",
-        "NAME_LATN": "Prov. Namur",
-        "NUTS_NAME": "Prov. Namur",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BE35"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BE35',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BE',
+        NAME_LATN: 'Prov. Namur',
+        NUTS_NAME: 'Prov. Namur',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BE35'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.393235000295052, 50.379363997272385],
             [5.380193663447253, 50.292247123919594],
@@ -25589,21 +25593,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Severozapaden",
-        "NUTS_NAME": "?????????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Severozapaden',
+        NUTS_NAME: '?????????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.997170999382398, 43.807867494837957],
             [23.409481475883926, 43.84984641802113],
@@ -25651,21 +25655,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Severen tsentralen",
-        "NUTS_NAME": "??????? ?????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Severen tsentralen',
+        NUTS_NAME: '??????? ?????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG32'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.213929051236875, 43.66627979393553],
             [27.001888500094889, 43.696867495045147],
@@ -25712,21 +25716,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Severoiztochen",
-        "NUTS_NAME": "?????????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Severoiztochen',
+        NUTS_NAME: '?????????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG33'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [28.578884000578046, 43.73873899488153],
             [28.583192982367013, 43.511686720887496],
@@ -25766,21 +25770,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG34",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Yugoiztochen",
-        "NUTS_NAME": "??????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG34"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG34',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Yugoiztochen',
+        NUTS_NAME: '??????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG34'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [26.577725499648782, 42.985696994249977],
             [26.589988499793733, 42.920118494069129],
@@ -25831,21 +25835,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Yugozapaden",
-        "NUTS_NAME": "??????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Yugozapaden',
+        NUTS_NAME: '??????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG41'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.00620999989113, 43.192878494880524],
             [23.17949542034669, 43.114980206531669],
@@ -25894,21 +25898,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "BG42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "BG",
-        "NAME_LATN": "Yuzhen tsentralen",
-        "NUTS_NAME": "???? ?????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "BG42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'BG42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'BG',
+        NAME_LATN: 'Yuzhen tsentralen',
+        NUTS_NAME: '???? ?????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'BG42'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.007195499685189, 42.737618994047025],
             [25.019946343414805, 42.632376646119944],
@@ -25964,21 +25968,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH01",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Région lémanique",
-        "NUTS_NAME": "Région lémanique",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH01"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH01',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Région lémanique',
+        NUTS_NAME: 'Région lémanique',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH01'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [7.237020499581868, 46.55379999581119],
@@ -26042,21 +26046,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR7",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Orta Anadolu",
-        "NUTS_NAME": "Orta Anadolu",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR7',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Orta Anadolu',
+        NUTS_NAME: 'Orta Anadolu',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR7'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [38.148452499574525, 40.524218493592194],
             [38.242141637093077, 40.21248867600076],
@@ -26132,21 +26136,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR8",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Bat? Karadeniz",
-        "NUTS_NAME": "Bat? Karadeniz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR8"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR8',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Bat? Karadeniz',
+        NUTS_NAME: 'Bat? Karadeniz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR8'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [35.513699499572951, 41.635979993565783],
             [35.683354657167826, 41.668255222437161],
@@ -26218,21 +26222,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR9",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Do?u Karadeniz",
-        "NUTS_NAME": "Do?u Karadeniz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR9"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR9',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Do?u Karadeniz',
+        NUTS_NAME: 'Do?u Karadeniz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR9'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [42.515174999732935, 41.438282493461827],
             [42.581169433298165, 41.26924168969235],
@@ -26292,21 +26296,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRA",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Kuzeydo?u Anadolu",
-        "NUTS_NAME": "Kuzeydo?u Anadolu",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRA"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRA',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Kuzeydo?u Anadolu',
+        NUTS_NAME: 'Kuzeydo?u Anadolu',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRA'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [43.653923000190836, 40.130377492696276],
             [43.923833636015928, 40.020809154394215],
@@ -26399,21 +26403,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRB",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Ortado?u Anadolu",
-        "NUTS_NAME": "Ortado?u Anadolu",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRB"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRB',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Ortado?u Anadolu',
+        NUTS_NAME: 'Ortado?u Anadolu',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRB'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [40.448440500113193, 39.522155492822748],
             [40.651634999808905, 39.5229104925277],
@@ -26515,21 +26519,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRC",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Güneydo?u Anadolu",
-        "NUTS_NAME": "Güneydo?u Anadolu",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRC"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRC',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Güneydo?u Anadolu',
+        NUTS_NAME: 'Güneydo?u Anadolu',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRC'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [41.380549999501866, 38.492253492310425],
             [41.506181999808604, 38.564977992203389],
@@ -26595,21 +26599,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKC",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "North East (England)",
-        "NUTS_NAME": "North East (England)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKC"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKC',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'North East (England)',
+        NUTS_NAME: 'North East (England)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKC'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.229223264411592, 54.584887433477746],
             [-1.21535215343887, 54.580843642365693],
@@ -26690,21 +26694,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKD",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "North West (England)",
-        "NUTS_NAME": "North West (England)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKD"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKD',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'North West (England)',
+        NUTS_NAME: 'North West (England)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKD'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.312043000153077, 54.791080497702701],
             [-2.340246176176375, 54.695047953698186],
@@ -26776,21 +26780,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKE",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Yorkshire and the Humber",
-        "NUTS_NAME": "Yorkshire and the Humber",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKE"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKE',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Yorkshire and the Humber',
+        NUTS_NAME: 'Yorkshire and the Humber',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKE'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.790906500104274, 54.559482497829357],
             [-0.562274513862737, 54.463731474544375],
@@ -26846,21 +26850,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKF",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "East Midlands (England)",
-        "NUTS_NAME": "East Midlands (England)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKF"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKF',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'East Midlands (England)',
+        NUTS_NAME: 'East Midlands (England)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKF'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [0.017377999603215, 53.525367497285536],
             [0.171470899190848, 53.46233272197874],
@@ -26915,21 +26919,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKG",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "West Midlands (England)",
-        "NUTS_NAME": "West Midlands (England)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKG"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKG',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'West Midlands (England)',
+        NUTS_NAME: 'West Midlands (England)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKG'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.597507000290728, 52.700431997110485],
             [-1.589611000324199, 52.687270997118588],
@@ -26976,21 +26980,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKH",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "East of England",
-        "NUTS_NAME": "East of England",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKH"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKH',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'East of England',
+        NUTS_NAME: 'East of England',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKH'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [0.590769500610646, 51.630649497215579],
             [0.811478710332893, 51.600884292092132],
@@ -27046,21 +27050,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKI",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "London",
-        "NUTS_NAME": "London",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKI"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKI',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'London',
+        NUTS_NAME: 'London',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKI'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.012219499989989, 51.64622899687631],
             [0.138225499555636, 51.623542997473635],
@@ -27103,21 +27107,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LT02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "LT",
-        "NAME_LATN": "Vidurio ir vakar? Lietuvos regionas",
-        "NUTS_NAME": "Vidurio ir vakar? Lietuvos regionas",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LT02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LT02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'LT',
+        NAME_LATN: 'Vidurio ir vakar? Lietuvos regionas',
+        NUTS_NAME: 'Vidurio ir vakar? Lietuvos regionas',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LT02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.821386499695777, 56.05217899783873],
             [25.894850280171063, 56.000129646994012],
@@ -27191,21 +27195,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LU00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "LU",
-        "NAME_LATN": "Luxembourg",
-        "NUTS_NAME": "Luxembourg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LU00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LU00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'LU',
+        NAME_LATN: 'Luxembourg',
+        NUTS_NAME: 'Luxembourg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LU00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.137662499619886, 50.129951497281404],
             [6.178724346460298, 49.962117241195635],
@@ -27226,21 +27230,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LV00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "LV",
-        "NAME_LATN": "Latvija",
-        "NUTS_NAME": "Latvija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LV00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LV00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'LV',
+        NAME_LATN: 'Latvija',
+        NUTS_NAME: 'Latvija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LV00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.351578999445003, 57.518236998693808],
             [27.528170903796607, 57.524648069873535],
@@ -27312,21 +27316,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ME00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ME",
-        "NAME_LATN": "Crna Gora",
-        "NUTS_NAME": "???? ????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ME00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ME00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ME',
+        NAME_LATN: 'Crna Gora',
+        NUTS_NAME: '???? ????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ME00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.22406900046791, 43.527540994792403],
             [19.670600758515146, 43.193946783430313],
@@ -27376,21 +27380,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "MK00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "MK",
-        "NAME_LATN": "Severna Makedonija",
-        "NUTS_NAME": "??????? ??????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "MK00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'MK00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'MK',
+        NAME_LATN: 'Severna Makedonija',
+        NUTS_NAME: '??????? ??????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'MK00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.3602064996787, 42.311156994566119],
             [22.44863238574203, 42.219320771939657],
@@ -27439,21 +27443,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "MT00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "MT",
-        "NAME_LATN": "Malta",
-        "NUTS_NAME": "Malta",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "MT00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'MT00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'MT',
+        NAME_LATN: 'Malta',
+        NUTS_NAME: 'Malta',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'MT00'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [14.56429485388434, 35.85010106200405],
@@ -27479,21 +27483,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Groningen",
-        "NUTS_NAME": "Groningen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Groningen',
+        NUTS_NAME: 'Groningen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL11'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [6.874905000153132, 53.408012997643972],
@@ -27531,21 +27535,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Notio Aigaio",
-        "NUTS_NAME": "????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Notio Aigaio',
+        NUTS_NAME: '????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL42'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [27.886748905102348, 35.95838752522581],
@@ -27873,21 +27877,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL43",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Kriti",
-        "NUTS_NAME": "?????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL43"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL43',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Kriti',
+        NUTS_NAME: '?????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL43'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.317411000499838, 35.353774990939414],
@@ -27928,21 +27932,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL51",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Anatoliki Makedonia, Thraki",
-        "NUTS_NAME": "A???????? ?????????, ?????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL51"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL51',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Anatoliki Makedonia, Thraki',
+        NUTS_NAME: 'A???????? ?????????, ?????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL51'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [26.032758000076409, 40.730256993461822],
@@ -28011,21 +28015,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL52",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Kentriki Makedonia",
-        "NUTS_NAME": "???????? ?????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL52"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL52',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Kentriki Makedonia',
+        NUTS_NAME: '???????? ?????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL52'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [23.624222999380716, 41.375727493635999],
@@ -28101,21 +28105,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL53",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Dytiki Makedonia",
-        "NUTS_NAME": "?????? ?????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL53"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL53',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Dytiki Makedonia',
+        NUTS_NAME: '?????? ?????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL53'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [21.917692000324767, 39.852048493056721],
             [21.51762041443833, 39.893192023014876],
@@ -28143,21 +28147,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL54",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Ipeiros",
-        "NUTS_NAME": "???????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL54"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL54',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Ipeiros',
+        NUTS_NAME: '???????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL54'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [21.295599999810332, 39.857457993197777],
             [21.147806702131248, 39.669729123691887],
@@ -28192,21 +28196,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DK02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DK",
-        "NAME_LATN": "Sjælland",
-        "NUTS_NAME": "Sjælland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DK02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DK02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DK',
+        NAME_LATN: 'Sjælland',
+        NUTS_NAME: 'Sjælland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DK02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [11.788112633140052, 55.661185671713724],
             [11.875297500787623, 55.737655997886058],
@@ -28248,21 +28252,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Espace Mittelland",
-        "NUTS_NAME": "Espace Mittelland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Espace Mittelland',
+        NUTS_NAME: 'Espace Mittelland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.130353000440072, 47.503040495955581],
             [7.223177833481567, 47.430309040361216],
@@ -28334,21 +28338,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Nordwestschweiz",
-        "NUTS_NAME": "Nordwestschweiz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Nordwestschweiz',
+        NUTS_NAME: 'Nordwestschweiz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH03'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [7.634096999467764, 47.56111349637267],
@@ -28392,21 +28396,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH04",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Zürich",
-        "NUTS_NAME": "Zürich",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH04"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH04',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Zürich',
+        NUTS_NAME: 'Zürich',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH04'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.670461000415379, 47.68486249620922],
             [8.799155049136807, 47.622498838465056],
@@ -28425,21 +28429,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH05",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Ostschweiz",
-        "NUTS_NAME": "Ostschweiz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH05"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH05',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Ostschweiz',
+        NUTS_NAME: 'Ostschweiz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH05'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [8.873873425457882, 47.667312399301601],
@@ -28508,21 +28512,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH06",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Zentralschweiz",
-        "NUTS_NAME": "Zentralschweiz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH06"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH06',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Zentralschweiz',
+        NUTS_NAME: 'Zentralschweiz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH06'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.412129499683179, 47.140737496158501],
             [8.410715999795547, 47.24803749580019],
@@ -28548,21 +28552,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "CH07",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "CH",
-        "NAME_LATN": "Ticino",
-        "NUTS_NAME": "Ticino",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "CH07"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'CH07',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'CH',
+        NAME_LATN: 'Ticino',
+        NUTS_NAME: 'Ticino',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'CH07'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.159377500406462, 46.169600995589356],
             [9.02945832601897, 46.021116199610361],
@@ -28584,21 +28588,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITG2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Sardegna",
-        "NUTS_NAME": "Sardegna",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITG2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITG2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Sardegna',
+        NUTS_NAME: 'Sardegna',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITG2'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [9.749370000191146, 40.658096993286549],
@@ -28675,21 +28679,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITH1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Provincia Autonoma di Bolzano/Bozen",
-        "NUTS_NAME": "Provincia Autonoma di Bolzano/Bozen",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITH1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITH1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Provincia Autonoma di Bolzano/Bozen',
+        NUTS_NAME: 'Provincia Autonoma di Bolzano/Bozen',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITH1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.240745499939178, 47.069168495945043],
             [12.143110024526846, 46.998882405427771],
@@ -28722,21 +28726,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITH2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Provincia Autonoma di Trento",
-        "NUTS_NAME": "Provincia Autonoma di Trento",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITH2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITH2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Provincia Autonoma di Trento',
+        NUTS_NAME: 'Provincia Autonoma di Trento',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITH2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [11.684318499487336, 45.984077995905089],
             [11.390618443528741, 45.976877064728257],
@@ -28764,21 +28768,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITH3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Veneto",
-        "NUTS_NAME": "Veneto",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITH3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITH3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Veneto',
+        NUTS_NAME: 'Veneto',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITH3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.731392999857215, 46.634287995493956],
             [12.713582969593254, 46.552015968299806],
@@ -28831,21 +28835,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITH4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Friuli-Venezia Giulia",
-        "NUTS_NAME": "Friuli-Venezia Giulia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITH4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITH4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Friuli-Venezia Giulia',
+        NUTS_NAME: 'Friuli-Venezia Giulia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITH4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [13.597145000011055, 45.819522496030345],
             [13.596242999435761, 45.807937495217672],
@@ -28881,21 +28885,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITH5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Emilia-Romagna",
-        "NUTS_NAME": "Emilia-Romagna",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITH5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITH5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Emilia-Romagna',
+        NUTS_NAME: 'Emilia-Romagna',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITH5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.548684500294808, 45.13264849516905],
             [9.730581195192148, 45.066423082057042],
@@ -28954,21 +28958,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITI1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Toscana",
-        "NUTS_NAME": "Toscana",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITI1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITI1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Toscana',
+        NUTS_NAME: 'Toscana',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITI1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [10.47014900012198, 44.226040994706956],
@@ -29058,21 +29062,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITI2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Umbria",
-        "NUTS_NAME": "Umbria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITI2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITI2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Umbria',
+        NUTS_NAME: 'Umbria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITI2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.767457000573362, 43.459829994582684],
             [12.862357999950431, 43.211232494192672],
@@ -29104,21 +29108,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITI3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Marche",
-        "NUTS_NAME": "Marche",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITI3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITI3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Marche',
+        NUTS_NAME: 'Marche',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITI3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.750684840216541, 43.969668875632884],
             [13.172615000045276, 43.750345994451706],
@@ -29152,21 +29156,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITI4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Lazio",
-        "NUTS_NAME": "Lazio",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITI4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITI4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Lazio',
+        NUTS_NAME: 'Lazio',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITI4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [12.488074499952246, 42.398656494388824],
             [12.60031528383521, 42.414043153850251],
@@ -29228,21 +29232,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LI00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "LI",
-        "NAME_LATN": "Liechtenstein",
-        "NUTS_NAME": "Liechtenstein",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LI00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LI00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'LI',
+        NAME_LATN: 'Liechtenstein',
+        NUTS_NAME: 'Liechtenstein',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LI00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.476047500074625, 47.0517974959292],
             [9.530749000090896, 47.270580996556561],
@@ -29254,21 +29258,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "LT01",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "LT",
-        "NAME_LATN": "Sostin?s regionas",
-        "NUTS_NAME": "Sostin?s regionas",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "LT01"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'LT01',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'LT',
+        NAME_LATN: 'Sostin?s regionas',
+        NUTS_NAME: 'Sostin?s regionas',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'LT01'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [26.743453999726327, 55.254102998419029],
             [26.666045011794779, 55.16370380411815],
@@ -29312,21 +29316,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR81",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Zonguldak, Karabük, Bart?n",
-        "NUTS_NAME": "Zonguldak, Karabük, Bart?n",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR81"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR81',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Zonguldak, Karabük, Bart?n',
+        NUTS_NAME: 'Zonguldak, Karabük, Bart?n',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR81'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [33.042014000199764, 41.069345993516563],
             [32.981332937333356, 40.990430643567279],
@@ -29358,21 +29362,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR82",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Kastamonu, Çank?r?, Sinop",
-        "NUTS_NAME": "Kastamonu, Çank?r?, Sinop",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR82"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR82',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Kastamonu, Çank?r?, Sinop',
+        NUTS_NAME: 'Kastamonu, Çank?r?, Sinop',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR82'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [35.513699499572951, 41.635979993565783],
             [35.344397041147595, 41.289087431299606],
@@ -29421,21 +29425,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE93",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Lüneburg",
-        "NUTS_NAME": "Lüneburg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE93"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE93',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Lüneburg',
+        NUTS_NAME: 'Lüneburg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE93'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.018512499474596, 53.834840997629165],
             [9.272732999387092, 53.867662497432534],
@@ -29481,21 +29485,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DE94",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Weser-Ems",
-        "NUTS_NAME": "Weser-Ems",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DE94"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DE94',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Weser-Ems',
+        NUTS_NAME: 'Weser-Ems',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DE94'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [8.091291000684985, 53.638108998094623],
@@ -29574,21 +29578,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEA1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Düsseldorf",
-        "NUTS_NAME": "Düsseldorf",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEA1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEA1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Düsseldorf',
+        NUTS_NAME: 'Düsseldorf',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEA1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.833152000391529, 51.579647997291744],
             [6.928413000064524, 51.497958496965516],
@@ -29630,21 +29634,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEA2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Köln",
-        "NUTS_NAME": "Köln",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEA2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEA2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Köln',
+        NUTS_NAME: 'Köln',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEA2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.433343000226104, 51.214408997522632],
             [7.508314659239976, 51.11579454943525],
@@ -29690,21 +29694,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEA3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Münster",
-        "NUTS_NAME": "Münster",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEA3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEA3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Münster',
+        NUTS_NAME: 'Münster',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEA3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.320136000164647, 51.725704996976617],
             [8.232716741573793, 51.669992300538951],
@@ -29749,21 +29753,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEA4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Detmold",
-        "NUTS_NAME": "Detmold",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEA4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEA4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Detmold',
+        NUTS_NAME: 'Detmold',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEA4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.703009000686951, 52.500437997580157],
             [8.740156648118388, 52.400723574884957],
@@ -29798,21 +29802,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEA5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Arnsberg",
-        "NUTS_NAME": "Arnsberg",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEA5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEA5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Arnsberg',
+        NUTS_NAME: 'Arnsberg',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEA5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.735787999615276, 51.737370497261168],
             [7.944527500600365, 51.700581997575021],
@@ -29860,21 +29864,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEB1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Koblenz",
-        "NUTS_NAME": "Koblenz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEB1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEB1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Koblenz',
+        NUTS_NAME: 'Koblenz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEB1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.954074013172526, 50.397076009147248],
             [8.022736638707991, 50.397076008681324],
@@ -29918,21 +29922,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEB2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Trier",
-        "NUTS_NAME": "Trier",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEB2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEB2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Trier',
+        NUTS_NAME: 'Trier',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEB2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.80071150046648, 50.361781496821102],
             [6.888680197389196, 50.314587951393307],
@@ -29963,21 +29967,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "DEB3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "DE",
-        "NAME_LATN": "Rheinhessen-Pfalz",
-        "NUTS_NAME": "Rheinhessen-Pfalz",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "DEB3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'DEB3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'DE',
+        NAME_LATN: 'Rheinhessen-Pfalz',
+        NUTS_NAME: 'Rheinhessen-Pfalz',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'DEB3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.773997000365243, 50.066539996613102],
             [7.908535992490243, 49.978605577647457],
@@ -30030,21 +30034,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "Serbia - jug",
-        "NUTS_NAME": "?????? - ???",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'Serbia - jug',
+        NUTS_NAME: '?????? - ???',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.400346000344566, 44.313118495400737],
             [20.485804346464473, 44.429959535668232],
@@ -30127,21 +30131,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE1",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Östra Sverige",
-        "NUTS_NAME": "Östra Sverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE1',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Östra Sverige',
+        NUTS_NAME: 'Östra Sverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [18.513265500554834, 60.148088998761118],
@@ -30227,21 +30231,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE2",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Södra Sverige",
-        "NUTS_NAME": "Södra Sverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE2',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Södra Sverige',
+        NUTS_NAME: 'Södra Sverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE2'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [19.354846055137113, 57.930898407067026],
@@ -30401,21 +30405,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE3",
-        "LEVL_CODE": 1,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Norra Sverige",
-        "NUTS_NAME": "Norra Sverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE3',
+        LEVL_CODE: 1,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Norra Sverige',
+        NUTS_NAME: 'Norra Sverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.127289326106233, 65.739980010285848],
@@ -30647,21 +30651,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRB0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Centre ? Val de Loire",
-        "NUTS_NAME": "Centre ? Val de Loire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRB0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRB0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Centre ? Val de Loire',
+        NUTS_NAME: 'Centre ? Val de Loire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRB0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.92214650023891, 48.457599496805798],
             [1.994089999704309, 48.286583996237248],
@@ -30716,21 +30720,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRC1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Bourgogne",
-        "NUTS_NAME": "Bourgogne",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRC1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRC1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Bourgogne',
+        NUTS_NAME: 'Bourgogne',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRC1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.293421500479365, 47.925673496646823],
             [4.704233000512169, 48.020234996141696],
@@ -30783,21 +30787,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRC2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Franche-Comté",
-        "NUTS_NAME": "Franche-Comté",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRC2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRC2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Franche-Comté',
+        NUTS_NAME: 'Franche-Comté',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRC2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.823533499855514, 47.813050996653566],
             [6.846175500135773, 47.822942495844245],
@@ -30840,21 +30844,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRD1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Basse-Normandie",
-        "NUTS_NAME": "Basse-Normandie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRD1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRD1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Basse-Normandie',
+        NUTS_NAME: 'Basse-Normandie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRD1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.119587499694275, 49.322266997112045],
             [-0.955655160477307, 49.390051086855628],
@@ -30893,21 +30897,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRD2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Haute-Normandie",
-        "NUTS_NAME": "Haute-Normandie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRD2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRD2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Haute-Normandie',
+        NUTS_NAME: 'Haute-Normandie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRD2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.71393049941842, 49.409224996307238],
             [1.765902152876892, 49.307268405267223],
@@ -30987,21 +30991,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRE1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Nord-Pas de Calais",
-        "NUTS_NAME": "Nord-Pas de Calais",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRE1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRE1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Nord-Pas de Calais',
+        NUTS_NAME: 'Nord-Pas de Calais',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRE1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [2.863276000308943, 50.708343496973278],
             [3.018708499688168, 50.773532996727432],
@@ -31044,21 +31048,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRE2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Picardie",
-        "NUTS_NAME": "Picardie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRE2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRE2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Picardie',
+        NUTS_NAME: 'Picardie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRE2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [3.090251999302681, 50.053740496903643],
             [3.172961500693458, 50.011311996636849],
@@ -31100,21 +31104,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRF1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Alsace",
-        "NUTS_NAME": "Alsace",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRF1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRF1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Alsace',
+        NUTS_NAME: 'Alsace',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRF1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.232633000467121, 48.966571496673296],
             [7.959630500158935, 48.718580996327233],
@@ -31151,21 +31155,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRF2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Champagne-Ardenne",
-        "NUTS_NAME": "Champagne-Ardenne",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRF2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRF2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Champagne-Ardenne',
+        NUTS_NAME: 'Champagne-Ardenne',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRF2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.969431000343631, 49.801825996879522],
             [5.15373850054156, 49.71792599706064],
@@ -31215,21 +31219,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRF3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Lorraine",
-        "NUTS_NAME": "Lorraine",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRF3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRF3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Lorraine',
+        NUTS_NAME: 'Lorraine',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRF3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.393511000302064, 49.617110997162023],
             [5.470883000610939, 49.497237996583614],
@@ -31280,21 +31284,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRG0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Pays de la Loire",
-        "NUTS_NAME": "Pays de la Loire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRG0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRG0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Pays de la Loire',
+        NUTS_NAME: 'Pays de la Loire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRG0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.05452700041042, 48.382004496511854],
@@ -31359,21 +31363,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRH0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Bretagne",
-        "NUTS_NAME": "Bretagne",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRH0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRH0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Bretagne',
+        NUTS_NAME: 'Bretagne',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRH0'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-2.093750417809154, 48.594154694614744],
@@ -31432,21 +31436,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRI1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Aquitaine",
-        "NUTS_NAME": "Aquitaine",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRI1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRI1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Aquitaine',
+        NUTS_NAME: 'Aquitaine',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRI1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.448260000530774, 45.019313995325298],
             [1.418586565671263, 44.872788848611926],
@@ -31514,21 +31518,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRI2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Limousin",
-        "NUTS_NAME": "Limousin",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRI2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRI2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Limousin',
+        NUTS_NAME: 'Limousin',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRI2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [2.281043499552291, 46.420403496077874],
             [2.565372500404391, 46.143035995634534],
@@ -31563,21 +31567,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRI3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Poitou-Charentes",
-        "NUTS_NAME": "Poitou-Charentes",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRI3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRI3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Poitou-Charentes',
+        NUTS_NAME: 'Poitou-Charentes',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRI3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.891963999740432, 46.975820496187112],
@@ -31647,21 +31651,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRJ1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Languedoc-Roussillon",
-        "NUTS_NAME": "Languedoc-Roussillon",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRJ1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRJ1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Languedoc-Roussillon',
+        NUTS_NAME: 'Languedoc-Roussillon',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRJ1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.649227500026661, 44.270359995020719],
             [4.797846237857992, 44.02122832486544],
@@ -31736,21 +31740,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRJ2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Midi-Pyrénées",
-        "NUTS_NAME": "Midi-Pyrénées",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRJ2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRJ2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Midi-Pyrénées',
+        NUTS_NAME: 'Midi-Pyrénées',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRJ2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [2.062908000370578, 44.976504495779317],
             [2.207472999805643, 44.615528994791781],
@@ -31827,21 +31831,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRK1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Auvergne",
-        "NUTS_NAME": "Auvergne",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRK1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRK1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Auvergne',
+        NUTS_NAME: 'Auvergne',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRK1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [3.629422499377198, 46.749456495790618],
             [3.645437451384308, 46.700752968565588],
@@ -31891,21 +31895,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRK2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Rhône-Alpes",
-        "NUTS_NAME": "Rhône-Alpes",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRK2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRK2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Rhône-Alpes',
+        NUTS_NAME: 'Rhône-Alpes',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRK2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.310563500317242, 46.446769995807166],
             [5.496273043614993, 46.271001736506939],
@@ -31977,21 +31981,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRL0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Provence-Alpes-Côte d?Azur",
-        "NUTS_NAME": "Provence-Alpes-Côte d?Azur",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRL0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRL0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Provence-Alpes-Côte d?Azur',
+        NUTS_NAME: 'Provence-Alpes-Côte d?Azur',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRL0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.260570000624224, 45.126843995529754],
             [6.432313515516548, 45.063861102011693],
@@ -32059,21 +32063,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRM0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Corse",
-        "NUTS_NAME": "Corse",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRM0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRM0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Corse',
+        NUTS_NAME: 'Corse',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRM0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.591882485754677, 42.37444686818305],
             [8.761647897626968, 42.559055134733093],
@@ -32101,21 +32105,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRY1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Guadeloupe",
-        "NUTS_NAME": "Guadeloupe",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRY1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRY1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Guadeloupe',
+        NUTS_NAME: 'Guadeloupe',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRY1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-63.088253116853124, 18.046260797427834],
@@ -32161,21 +32165,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRY2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Martinique",
-        "NUTS_NAME": "Martinique",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRY2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRY2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Martinique',
+        NUTS_NAME: 'Martinique',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRY2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-61.234357146232078, 14.825946878835905],
             [-61.141917984914244, 14.883694276423338],
@@ -32197,21 +32201,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRY3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Guyane",
-        "NUTS_NAME": "Guyane",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRY3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRY3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Guyane',
+        NUTS_NAME: 'Guyane',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRY3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-52.664220348723916, 2.387416808662569],
             [-52.937553937284306, 2.184785226478339],
@@ -32250,21 +32254,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRY4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "La Réunion",
-        "NUTS_NAME": "La Réunion",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRY4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRY4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'La Réunion',
+        NUTS_NAME: 'La Réunion',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRY4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [55.214714260201468, -21.038512085962349],
             [55.273919700912394, -21.000572522645726],
@@ -32288,21 +32292,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FRY5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Mayotte",
-        "NUTS_NAME": "Mayotte",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FRY5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FRY5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Mayotte',
+        NUTS_NAME: 'Mayotte',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FRY5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [45.221841863068988, -12.872266334405495],
             [45.153798430907038, -12.994118155946015],
@@ -32320,21 +32324,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HR03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HR",
-        "NAME_LATN": "Jadranska Hrvatska",
-        "NUTS_NAME": "Jadranska Hrvatska",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HR03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HR03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HR',
+        NAME_LATN: 'Jadranska Hrvatska',
+        NUTS_NAME: 'Jadranska Hrvatska',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HR03'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [18.438103999358621, 42.555704994113022],
@@ -32584,21 +32588,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HR02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HR",
-        "NAME_LATN": "Panonska Hrvatska",
-        "NUTS_NAME": "Panonska Hrvatska",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": 0.0,
-        "COAST_TYPE": 0,
-        "FID": "HR02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HR02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HR',
+        NAME_LATN: 'Panonska Hrvatska',
+        NUTS_NAME: 'Panonska Hrvatska',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: 0.0,
+        COAST_TYPE: 0,
+        FID: 'HR02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.294324999564836, 45.98854449527532],
             [17.555519822571174, 45.931189230945748],
@@ -32670,21 +32674,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Budapest",
-        "NUTS_NAME": "Budapest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Budapest',
+        NUTS_NAME: 'Budapest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.924850007298232, 47.523335871254552],
             [18.926737604295475, 47.573040346293922],
@@ -32703,21 +32707,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Pest",
-        "NUTS_NAME": "Pest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Pest',
+        NUTS_NAME: 'Pest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.570937000042161, 47.734899496038786],
             [19.60717910384988, 47.667312399220577],
@@ -32764,21 +32768,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Közép-Dunántúl",
-        "NUTS_NAME": "Közép-Dunántúl",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Közép-Dunántúl',
+        NUTS_NAME: 'Közép-Dunántúl',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.688433500505617, 47.577067496469517],
             [18.8966022274167, 47.283737825033974],
@@ -32810,21 +32814,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Nyugat-Dunántúl",
-        "NUTS_NAME": "Nyugat-Dunántúl",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Nyugat-Dunántúl',
+        NUTS_NAME: 'Nyugat-Dunántúl',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.893923000580738, 47.739456995883444],
             [17.898474100565117, 47.667312398817089],
@@ -32865,21 +32869,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF6",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Calabria",
-        "NUTS_NAME": "Calabria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF6',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Calabria',
+        NUTS_NAME: 'Calabria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF6'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.025064500282561, 39.483578493204192],
             [17.139428718826576, 39.388995937906309],
@@ -32919,21 +32923,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITG1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Sicilia",
-        "NUTS_NAME": "Sicilia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITG1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITG1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Sicilia',
+        NUTS_NAME: 'Sicilia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITG1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [15.258082500463704, 37.807223991814908],
@@ -33003,21 +33007,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR52",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Konya, Karaman",
-        "NUTS_NAME": "Konya, Karaman",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR52"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR52',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Konya, Karaman',
+        NUTS_NAME: 'Konya, Karaman',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR52'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [33.464405000399225, 38.636591492555503],
             [33.291957776977512, 38.468613337998541],
@@ -33064,21 +33068,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR61",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Antalya, Isparta, Burdur",
-        "NUTS_NAME": "Antalya, Isparta, Burdur",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR61"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR61',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Antalya, Isparta, Burdur',
+        NUTS_NAME: 'Antalya, Isparta, Burdur',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR61'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [31.300974999746312, 37.404258992047446],
             [31.499586510450627, 37.327727651779007],
@@ -33127,21 +33131,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR62",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Adana, Mersin",
-        "NUTS_NAME": "Adana, Mersin",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR62"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR62',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Adana, Mersin',
+        NUTS_NAME: 'Adana, Mersin',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR62'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [36.440495999634649, 38.219432492473892],
             [36.303864999600698, 37.734576492031906],
@@ -33186,21 +33190,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR63",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Hatay, Kahramanmara?, Osmaniye",
-        "NUTS_NAME": "Hatay, Kahramanmara?, Osmaniye",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR63"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR63',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Hatay, Kahramanmara?, Osmaniye',
+        NUTS_NAME: 'Hatay, Kahramanmara?, Osmaniye',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR63'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [36.69738849970981, 37.218142492102359],
             [36.530335376921478, 37.084390817427391],
@@ -33243,21 +33247,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR71",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "K?r?kkale, Aksaray, Ni?de, Nev?ehir, K?r?ehir",
-        "NUTS_NAME": "K?r?kkale, Aksaray, Ni?de, Nev?ehir, K?r?ehir",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR71"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR71',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'K?r?kkale, Aksaray, Ni?de, Nev?ehir, K?r?ehir',
+        NUTS_NAME: 'K?r?kkale, Aksaray, Ni?de, Nev?ehir, K?r?ehir',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR71'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [35.218708000307608, 37.75922449227064],
             [34.899650562437408, 37.658096632586172],
@@ -33306,21 +33310,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR72",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Kayseri, Sivas, Yozgat",
-        "NUTS_NAME": "Kayseri, Sivas, Yozgat",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR72"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR72',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Kayseri, Sivas, Yozgat',
+        NUTS_NAME: 'Kayseri, Sivas, Yozgat',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR72'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [38.148452499574525, 40.524218493592194],
             [38.242141637093077, 40.21248867600076],
@@ -33385,21 +33389,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR83",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Samsun, Tokat, Çorum, Amasya",
-        "NUTS_NAME": "Samsun, Tokat, Çorum, Amasya",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR83"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR83',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Samsun, Tokat, Çorum, Amasya',
+        NUTS_NAME: 'Samsun, Tokat, Çorum, Amasya',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR83'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [37.152348500029191, 41.148413493677971],
             [36.879098722984345, 40.967487771616426],
@@ -33454,21 +33458,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR90",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Trabzon, Ordu, Giresun, Rize, Artvin, Gümü?hane",
-        "NUTS_NAME": "Trabzon, Ordu, Giresun, Rize, Artvin, Gümü?hane",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR90"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR90',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Trabzon, Ordu, Giresun, Rize, Artvin, Gümü?hane',
+        NUTS_NAME: 'Trabzon, Ordu, Giresun, Rize, Artvin, Gümü?hane',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR90'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [42.515174999732935, 41.438282493461827],
             [42.581169433298165, 41.26924168969235],
@@ -33528,21 +33532,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRA1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Erzurum, Erzincan, Bayburt",
-        "NUTS_NAME": "Erzurum, Erzincan, Bayburt",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRA1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRA1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Erzurum, Erzincan, Bayburt',
+        NUTS_NAME: 'Erzurum, Erzincan, Bayburt',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRA1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [42.574649500356593, 40.669076993116839],
             [42.512275640380636, 40.429872444268199],
@@ -33609,21 +33613,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRA2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "A?r?, Kars, I?d?r, Ardahan",
-        "NUTS_NAME": "A?r?, Kars, I?d?r, Ardahan",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRA2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRA2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'A?r?, Kars, I?d?r, Ardahan',
+        NUTS_NAME: 'A?r?, Kars, I?d?r, Ardahan',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRA2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [43.653923000190836, 40.130377492696276],
             [43.923833636015928, 40.020809154394215],
@@ -33685,21 +33689,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRB1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Malatya, Elaz??, Bingöl, Tunceli",
-        "NUTS_NAME": "Malatya, Elaz??, Bingöl, Tunceli",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRB1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRB1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Malatya, Elaz??, Bingöl, Tunceli',
+        NUTS_NAME: 'Malatya, Elaz??, Bingöl, Tunceli',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRB1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [40.448440500113193, 39.522155492822748],
             [40.651634999808905, 39.5229104925277],
@@ -33752,21 +33756,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRB2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Van, Mu?, Bitlis, Hakkari",
-        "NUTS_NAME": "Van, Mu?, Bitlis, Hakkari",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRB2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRB2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Van, Mu?, Bitlis, Hakkari',
+        NUTS_NAME: 'Van, Mu?, Bitlis, Hakkari',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRB2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [42.750080000476537, 38.925190992434672],
             [42.892742904119935, 38.941555031482515],
@@ -33831,21 +33835,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRC1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Gaziantep, Ad?yaman, Kilis",
-        "NUTS_NAME": "Gaziantep, Ad?yaman, Kilis",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRC1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRC1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Gaziantep, Ad?yaman, Kilis',
+        NUTS_NAME: 'Gaziantep, Ad?yaman, Kilis',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRC1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [39.122747000043582, 38.183312992626654],
             [39.212709205881815, 38.189379928785293],
@@ -33882,21 +33886,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRC2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "?anl?urfa, Diyarbak?r",
-        "NUTS_NAME": "?anl?urfa, Diyarbak?r",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRC2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRC2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: '?anl?urfa, Diyarbak?r',
+        NUTS_NAME: '?anl?urfa, Diyarbak?r',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRC2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [41.380549999501866, 38.492253492310425],
             [41.202916994547905, 38.312962527227363],
@@ -33940,21 +33944,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKI7",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Outer London ? West and North West",
-        "NUTS_NAME": "Outer London ? West and North West",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKI7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKI7',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Outer London ? West and North West',
+        NUTS_NAME: 'Outer London ? West and North West',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKI7'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.191421999365621, 51.536288997439179],
             [-0.215967999849947, 51.527927497306976],
@@ -33979,21 +33983,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKJ1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Berkshire, Buckinghamshire and Oxfordshire",
-        "NUTS_NAME": "Berkshire, Buckinghamshire and Oxfordshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKJ1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKJ1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Berkshire, Buckinghamshire and Oxfordshire',
+        NUTS_NAME: 'Berkshire, Buckinghamshire and Oxfordshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKJ1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.591772500664973, 52.110690997752009],
             [-0.652946500662965, 51.96923049748748],
@@ -34027,21 +34031,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKJ2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Surrey, East and West Sussex",
-        "NUTS_NAME": "Surrey, East and West Sussex",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKJ2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKJ2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Surrey, East and West Sussex',
+        NUTS_NAME: 'Surrey, East and West Sussex',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKJ2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.317698000353366, 51.393666996888186],
             [-0.33065549956631, 51.329009497302138],
@@ -34073,21 +34077,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKJ3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Hampshire and Isle of Wight",
-        "NUTS_NAME": "Hampshire and Isle of Wight",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKJ3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKJ3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Hampshire and Isle of Wight',
+        NUTS_NAME: 'Hampshire and Isle of Wight',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKJ3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.938581999888915, 50.873718496946289],
@@ -34131,21 +34135,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKJ4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Kent",
-        "NUTS_NAME": "Kent",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKJ4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKJ4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Kent',
+        NUTS_NAME: 'Kent',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKJ4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [0.458900500681173, 51.454936996944312],
             [0.67465655260085, 51.455709883276249],
@@ -34178,21 +34182,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKK1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Gloucestershire, Wiltshire and Bristol/Bath area",
-        "NUTS_NAME": "Gloucestershire, Wiltshire and Bristol/Bath area",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKK1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKK1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Gloucestershire, Wiltshire and Bristol/Bath area',
+        NUTS_NAME: 'Gloucestershire, Wiltshire and Bristol/Bath area',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKK1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.66573250058384, 51.987491497033275],
             [-1.687097605654746, 51.690665412362343],
@@ -34235,21 +34239,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKK2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Dorset and Somerset",
-        "NUTS_NAME": "Dorset and Somerset",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKK2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKK2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Dorset and Somerset',
+        NUTS_NAME: 'Dorset and Somerset',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKK2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.289076999494887, 51.325275496850246],
             [-2.26055920735424, 51.25652062220329],
@@ -34280,21 +34284,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKK3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Cornwall and Isles of Scilly",
-        "NUTS_NAME": "Cornwall and Isles of Scilly",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKK3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKK3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Cornwall and Isles of Scilly',
+        NUTS_NAME: 'Cornwall and Isles of Scilly',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKK3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-4.545959499778565, 50.928352497332909],
@@ -34330,21 +34334,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKK4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Devon",
-        "NUTS_NAME": "Devon",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKK4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKK4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Devon',
+        NUTS_NAME: 'Devon',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKK4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-3.510436932005674, 50.378849889252173],
             [-3.677834075245222, 50.218215722349967],
@@ -34371,21 +34375,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL61",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Thessalia",
-        "NUTS_NAME": "????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL61"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL61',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Thessalia',
+        NUTS_NAME: '????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL61'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.133115609152149, 39.361796979055221],
@@ -34480,21 +34484,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL62",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Ionia Nisia",
-        "NUTS_NAME": "????? ?????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL62"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL62',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Ionia Nisia',
+        NUTS_NAME: '????? ?????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL62'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [20.897673642955954, 37.74228819888426],
@@ -34576,21 +34580,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL63",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Dytiki Elláda",
-        "NUTS_NAME": "?????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL63"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL63',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Dytiki Elláda',
+        NUTS_NAME: '?????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL63'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [22.372972499466826, 38.142223492134228],
@@ -34643,21 +34647,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL64",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Sterea Elláda",
-        "NUTS_NAME": "?????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL64"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL64',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Sterea Elláda',
+        NUTS_NAME: '?????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL64'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.691159570737685, 38.789620268737728],
@@ -34744,21 +34748,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "EL65",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "EL",
-        "NAME_LATN": "Peloponnisos",
-        "NUTS_NAME": "????????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "EL65"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'EL65',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'EL',
+        NAME_LATN: 'Peloponnisos',
+        NUTS_NAME: '????????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'EL65'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.117531999565148, 38.060645992032569],
             [23.179699499901972, 37.951589992483633],
@@ -34807,21 +34811,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Galicia",
-        "NUTS_NAME": "Galicia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Galicia',
+        NUTS_NAME: 'Galicia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-6.82416700010369, 42.915012494827771],
             [-7.01048439951725, 42.68615235230093],
@@ -34876,21 +34880,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Principado de Asturias",
-        "NUTS_NAME": "Principado de Asturias",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Principado de Asturias',
+        NUTS_NAME: 'Principado de Asturias',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-4.512300999503264, 43.393203994821974],
             [-4.543418180486008, 43.294501909573547],
@@ -34920,21 +34924,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES13",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Cantabria",
-        "NUTS_NAME": "Cantabria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES13"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES13',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Cantabria',
+        NUTS_NAME: 'Cantabria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES13'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-3.153337999907382, 43.35322199473751],
             [-3.266109324466731, 43.255733139849745],
@@ -34967,21 +34971,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "País Vasco",
-        "NUTS_NAME": "País Vasco",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'País Vasco',
+        NUTS_NAME: 'País Vasco',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.412846999415546, 43.321082994405934],
             [-2.173186381860775, 43.292991399967377],
@@ -35030,21 +35034,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Comunidad Foral de Navarra",
-        "NUTS_NAME": "Comunidad Foral de Navarra",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Comunidad Foral de Navarra',
+        NUTS_NAME: 'Comunidad Foral de Navarra',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES22'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.724500999575501, 42.920158494868083],
@@ -35092,21 +35096,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES23",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "La Rioja",
-        "NUTS_NAME": "La Rioja",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES23"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES23',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'La Rioja',
+        NUTS_NAME: 'La Rioja',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES23'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.420718999707423, 42.489269494017769],
             [-2.093750418024309, 42.386348773019328],
@@ -35141,21 +35145,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES24",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Aragón",
-        "NUTS_NAME": "Aragón",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES24"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES24',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Aragón',
+        NUTS_NAME: 'Aragón',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES24'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.313341999416588, 42.849364994284471],
             [-0.012159521863859, 42.699866216304841],
@@ -35233,21 +35237,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES30",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Comunidad de Madrid",
-        "NUTS_NAME": "Comunidad de Madrid",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES30"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES30',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Comunidad de Madrid',
+        NUTS_NAME: 'Comunidad de Madrid',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES30'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-3.067688999741003, 40.157884993316806],
@@ -35290,21 +35294,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Castilla y León",
-        "NUTS_NAME": "Castilla y León",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Castilla y León',
+        NUTS_NAME: 'Castilla y León',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES41'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-4.841038500280846, 43.180709494911049],
@@ -35428,21 +35432,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Castilla-La Mancha",
-        "NUTS_NAME": "Castilla-La Mancha",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Castilla-La Mancha',
+        NUTS_NAME: 'Castilla-La Mancha',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES42'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.093750417759809, 41.138024042567615],
             [-2.051689999989567, 41.146857993566428],
@@ -35543,21 +35547,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES43",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Extremadura",
-        "NUTS_NAME": "Extremadura",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES43"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES43',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Extremadura',
+        NUTS_NAME: 'Extremadura',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES43'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-5.737602499735476, 40.294162993467445],
             [-5.552644152551444, 40.206630582183692],
@@ -35612,21 +35616,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Östra Mellansverige",
-        "NUTS_NAME": "Östra Mellansverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Östra Mellansverige',
+        NUTS_NAME: 'Östra Mellansverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.513265500554834, 60.148088998761118],
             [18.371819171370326, 59.876099323887701],
@@ -35702,21 +35706,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Småland med öarna",
-        "NUTS_NAME": "Småland med öarna",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Småland med öarna',
+        NUTS_NAME: 'Småland med öarna',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE21'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [19.354846055137113, 57.930898407067026],
@@ -35825,21 +35829,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Sydsverige",
-        "NUTS_NAME": "Sydsverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Sydsverige',
+        NUTS_NAME: 'Sydsverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE22'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [14.514669499608839, 56.460036997836646],
@@ -35888,21 +35892,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE23",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Västsverige",
-        "NUTS_NAME": "Västsverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE23"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE23',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Västsverige',
+        NUTS_NAME: 'Västsverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE23'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.295995000034166, 59.012779498237428],
             [14.494907070862785, 58.717302832249281],
@@ -35964,21 +35968,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Norra Mellansverige",
-        "NUTS_NAME": "Norra Mellansverige",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Norra Mellansverige',
+        NUTS_NAME: 'Norra Mellansverige',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.370218000002378, 60.654461498414605],
             [17.16302313506462, 60.29691880094213],
@@ -36050,21 +36054,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU23",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Dél-Dunántúl",
-        "NUTS_NAME": "Dél-Dunántúl",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU23"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU23',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Dél-Dunántúl',
+        NUTS_NAME: 'Dél-Dunántúl',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU23'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.925097000369338, 46.857168495934758],
             [18.98602641995976, 46.703095025020801],
@@ -36096,21 +36100,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Észak-Magyarország",
-        "NUTS_NAME": "Észak-Magyarország",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Észak-Magyarország',
+        NUTS_NAME: 'Észak-Magyarország',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.121077500263809, 48.378311496175904],
             [21.919981159417727, 48.250727955025532],
@@ -36151,21 +36155,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Észak-Alföld",
-        "NUTS_NAME": "Észak-Alföld",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Észak-Alföld',
+        NUTS_NAME: 'Észak-Alföld',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU32'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [21.658955000616007, 47.022131496265956],
             [21.50582027817407, 46.952463955441651],
@@ -36213,21 +36217,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HU33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HU",
-        "NAME_LATN": "Dél-Alföld",
-        "NUTS_NAME": "Dél-Alföld",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "HU33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HU33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HU',
+        NAME_LATN: 'Dél-Alföld',
+        NUTS_NAME: 'Dél-Alföld',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'HU33'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [21.658955000616007, 47.022131496265956],
             [21.441398000246878, 46.651466996288356],
@@ -36278,21 +36282,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IE04",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IE",
-        "NAME_LATN": "Northern and Western",
-        "NUTS_NAME": "Northern and Western",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IE04"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IE04',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IE',
+        NAME_LATN: 'Northern and Western',
+        NUTS_NAME: 'Northern and Western',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IE04'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-7.256068499430945, 55.06703499803546],
@@ -36394,21 +36398,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IE05",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IE",
-        "NAME_LATN": "Southern",
-        "NUTS_NAME": "Southern",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IE05"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IE05',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IE',
+        NAME_LATN: 'Southern',
+        NUTS_NAME: 'Southern',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IE05'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-7.674081000183438, 52.781293997464473],
@@ -36476,21 +36480,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IE06",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IE",
-        "NAME_LATN": "Eastern and Midland",
-        "NUTS_NAME": "Eastern and Midland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IE06"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IE06',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IE',
+        NAME_LATN: 'Eastern and Midland',
+        NUTS_NAME: 'Eastern and Midland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IE06'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-6.21489950039632, 53.633406997383574],
             [-6.096966246443484, 53.551608708977646],
@@ -36534,21 +36538,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "IS00",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IS",
-        "NAME_LATN": "Ísland",
-        "NUTS_NAME": "Ísland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "IS00"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'IS00',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IS',
+        NAME_LATN: 'Ísland',
+        NUTS_NAME: 'Ísland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'IS00'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-22.007397000437823, 63.835987498217662],
             [-22.130868498961153, 63.836597998766976],
@@ -36632,21 +36636,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITC1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Piemonte",
-        "NUTS_NAME": "Piemonte",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITC1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITC1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Piemonte',
+        NUTS_NAME: 'Piemonte',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITC1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.842915500538917, 45.393840995835511],
             [8.694472866583157, 45.306632517805745],
@@ -36699,21 +36703,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITC2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Valle d?Aosta/Vallée d?Aoste",
-        "NUTS_NAME": "Valle d?Aosta/Vallée d?Aoste",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITC2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITC2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Valle d?Aosta/Vallée d?Aoste',
+        NUTS_NAME: 'Valle d?Aosta/Vallée d?Aoste',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITC2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.864076500101562, 45.91675049587078],
             [7.936649000486713, 45.72434049591859],
@@ -36732,21 +36736,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITC3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Liguria",
-        "NUTS_NAME": "Liguria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITC3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITC3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Liguria',
+        NUTS_NAME: 'Liguria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITC3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [9.202995499692234, 44.613476495245763],
             [9.493363000247898, 44.555858995360424],
@@ -36781,21 +36785,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITC4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Lombardia",
-        "NUTS_NAME": "Lombardia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITC4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITC4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Lombardia',
+        NUTS_NAME: 'Lombardia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITC4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.840176500408758, 45.832758495488712],
             [10.644357039291835, 45.610923839823464],
@@ -36858,21 +36862,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Abruzzo",
-        "NUTS_NAME": "Abruzzo",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Abruzzo',
+        NUTS_NAME: 'Abruzzo',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.485359000512625, 41.75962299393224],
             [14.378693921489049, 41.868828286720813],
@@ -36908,21 +36912,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Molise",
-        "NUTS_NAME": "Molise",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Molise',
+        NUTS_NAME: 'Molise',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.138178500483818, 41.927007494318971],
             [15.109710087905508, 41.704116601632244],
@@ -36951,21 +36955,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Campania",
-        "NUTS_NAME": "Campania",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Campania',
+        NUTS_NAME: 'Campania',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [14.378693922270299, 41.444084254134772],
@@ -37018,21 +37022,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Puglia",
-        "NUTS_NAME": "Puglia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Puglia',
+        NUTS_NAME: 'Puglia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF4'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [16.542302499888731, 41.229440993740489],
@@ -37090,21 +37094,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ITF5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "IT",
-        "NAME_LATN": "Basilicata",
-        "NUTS_NAME": "Basilicata",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ITF5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ITF5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'IT',
+        NAME_LATN: 'Basilicata',
+        NUTS_NAME: 'Basilicata',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ITF5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.244098499411262, 40.838008493454105],
             [16.412250946503288, 40.721747723193793],
@@ -37135,21 +37139,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES53",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Illes Balears",
-        "NUTS_NAME": "Illes Balears",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES53"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES53',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Illes Balears',
+        NUTS_NAME: 'Illes Balears',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES53'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [4.257760988604499, 39.964625973449067],
@@ -37234,21 +37238,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES61",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Andalucía",
-        "NUTS_NAME": "Andalucía",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES61"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES61',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Andalucía',
+        NUTS_NAME: 'Andalucía',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES61'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-5.046996000236822, 38.729133492764753],
             [-4.268894999571951, 38.347212992256893],
@@ -37325,21 +37329,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES62",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Región de Murcia",
-        "NUTS_NAME": "Región de Murcia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES62"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES62',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Región de Murcia',
+        NUTS_NAME: 'Región de Murcia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES62'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.026870000094703, 38.655509492408434],
             [-1.008048501502576, 38.593375324406807],
@@ -37374,21 +37378,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES63",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Ciudad de Ceuta",
-        "NUTS_NAME": "Ciudad de Ceuta",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES63"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES63',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Ciudad de Ceuta',
+        NUTS_NAME: 'Ciudad de Ceuta',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES63'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-5.339367492726789, 35.876148390508327],
             [-5.343370631714718, 35.870876257923953],
@@ -37407,21 +37411,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES64",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Ciudad de Melilla",
-        "NUTS_NAME": "Ciudad de Melilla",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES64"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES64',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Ciudad de Melilla',
+        NUTS_NAME: 'Ciudad de Melilla',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES64'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.952486499772628, 35.319768990810225],
             [-2.928123499837426, 35.273081490610409],
@@ -37432,21 +37436,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "ES70",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "ES",
-        "NAME_LATN": "Canarias",
-        "NUTS_NAME": "Canarias",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "ES70"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'ES70',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'ES',
+        NAME_LATN: 'Canarias',
+        NUTS_NAME: 'Canarias',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'ES70'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-13.739988966156515, 28.902985956920986],
@@ -37573,21 +37577,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI19",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Länsi-Suomi",
-        "NUTS_NAME": "Länsi-Suomi",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI19"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI19',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Länsi-Suomi',
+        NUTS_NAME: 'Länsi-Suomi',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI19'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [23.691771527833453, 63.391911635499426],
@@ -37691,21 +37695,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI1B",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Helsinki-Uusimaa",
-        "NUTS_NAME": "Helsinki-Uusimaa",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI1B"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI1B',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Helsinki-Uusimaa',
+        NUTS_NAME: 'Helsinki-Uusimaa',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI1B'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [26.208359500272469, 60.757992498614193],
             [26.543591837659925, 60.566899346445808],
@@ -37741,21 +37745,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI1C",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Etelä-Suomi",
-        "NUTS_NAME": "Etelä-Suomi",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI1C"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI1C',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Etelä-Suomi',
+        NUTS_NAME: 'Etelä-Suomi',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI1C'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [30.14396650031906, 61.852237998904208],
@@ -37913,21 +37917,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI1D",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Pohjois- ja Itä-Suomi",
-        "NUTS_NAME": "Pohjois- ja Itä-Suomi",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI1D"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI1D',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Pohjois- ja Itä-Suomi',
+        NUTS_NAME: 'Pohjois- ja Itä-Suomi',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI1D'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.929679999209856, 69.051904999170887],
@@ -38112,21 +38116,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FI20",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FI",
-        "NAME_LATN": "Åland",
-        "NUTS_NAME": "Åland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FI20"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FI20',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FI',
+        NAME_LATN: 'Åland',
+        NUTS_NAME: 'Åland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FI20'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [21.120024620748339, 60.534953528059482],
@@ -38209,21 +38213,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "FR10",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "FR",
-        "NAME_LATN": "Ile-de-France",
-        "NUTS_NAME": "Ile-de-France",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "FR10"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'FR10',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'FR',
+        NAME_LATN: 'Ile-de-France',
+        NUTS_NAME: 'Ile-de-France',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'FR10'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.704358999510012, 49.232196996596315],
             [1.788417110949617, 49.178038400667425],
@@ -38255,21 +38259,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL71",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "?ódzkie",
-        "NUTS_NAME": "?ódzkie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL71"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL71',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: '?ódzkie',
+        NUTS_NAME: '?ódzkie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL71'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.28918450001396, 52.392712497832711],
             [19.654232086651678, 52.261805963679613],
@@ -38310,21 +38314,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL72",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "?wi?tokrzyskie",
-        "NUTS_NAME": "?wi?tokrzyskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL72"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL72',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: '?wi?tokrzyskie',
+        NUTS_NAME: '?wi?tokrzyskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL72'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.432815000721742, 51.339404997242845],
             [20.769887133540376, 51.160129864008915],
@@ -38358,21 +38362,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL81",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Lubelskie",
-        "NUTS_NAME": "Lubelskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL81"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL81',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Lubelskie',
+        NUTS_NAME: 'Lubelskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL81'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.709221000144726, 51.277648496858212],
             [24.093240100040259, 50.858622360114502],
@@ -38411,21 +38415,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL82",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Podkarpackie",
-        "NUTS_NAME": "Podkarpackie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL82"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL82',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Podkarpackie',
+        NUTS_NAME: 'Podkarpackie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL82'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.638221999296714, 50.303077496686427],
             [23.005540418459432, 50.293534617250636],
@@ -38458,21 +38462,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL84",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Podlaskie",
-        "NUTS_NAME": "Podlaskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL84"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL84',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Podlaskie',
+        NUTS_NAME: 'Podlaskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL84'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.588701999276161, 53.695928497376052],
             [23.862525847178418, 53.20144491340838],
@@ -38505,21 +38509,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL91",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Warszawski sto?eczny",
-        "NUTS_NAME": "Warszawski sto?eczny",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL91"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL91',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Warszawski sto?eczny',
+        NUTS_NAME: 'Warszawski sto?eczny',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL91'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [21.121797000648229, 52.553587997416429],
             [21.427769701750591, 52.476252607175347],
@@ -38543,21 +38547,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL92",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Mazowiecki regionalny",
-        "NUTS_NAME": "Mazowiecki regionalny",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL92"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL92',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Mazowiecki regionalny',
+        NUTS_NAME: 'Mazowiecki regionalny',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL92'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.408588999398951, 52.609689997138048],
             [22.599414348129059, 52.401076671617481],
@@ -38627,21 +38631,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Norte",
-        "NUTS_NAME": "Norte",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Norte',
+        NUTS_NAME: 'Norte',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-8.165075500514568, 41.818301993781262],
             [-8.051862500375565, 41.820613994277295],
@@ -38687,21 +38691,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT15",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Algarve",
-        "NUTS_NAME": "Algarve",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT15"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT15',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Algarve',
+        NUTS_NAME: 'Algarve',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT15'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-7.40191649951267, 37.174827491674471],
             [-7.887699264131449, 36.972877563190536],
@@ -38721,21 +38725,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKL2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "East Wales",
-        "NUTS_NAME": "East Wales",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKL2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKL2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'East Wales',
+        NUTS_NAME: 'East Wales',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKL2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.726823500222554, 52.983295497091106],
             [-2.776734460543719, 52.911422763603923],
@@ -38788,21 +38792,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKM5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "North Eastern Scotland",
-        "NUTS_NAME": "North Eastern Scotland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKM5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKM5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'North Eastern Scotland',
+        NUTS_NAME: 'North Eastern Scotland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKM5'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.425346000227243, 56.755187997823064],
             [-2.514354557114724, 56.779090734892911],
@@ -38832,21 +38836,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKM6",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Highlands and Islands",
-        "NUTS_NAME": "Highlands and Islands",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKM6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKM6',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Highlands and Islands',
+        NUTS_NAME: 'Highlands and Islands',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKM6'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.981919860989055, 60.575910267946277],
@@ -39176,21 +39180,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKM7",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Eastern Scotland",
-        "NUTS_NAME": "Eastern Scotland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKM7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKM7',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Eastern Scotland',
+        NUTS_NAME: 'Eastern Scotland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKM7'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.425346000227243, 56.755187997823064],
             [-2.584358103593712, 56.55157256780852],
@@ -39239,21 +39243,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKM8",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "West Central Scotland",
-        "NUTS_NAME": "West Central Scotland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKM8"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKM8',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'West Central Scotland',
+        NUTS_NAME: 'West Central Scotland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKM8'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-4.15238149980474, 56.008144498393918],
             [-4.020120999129749, 56.02814499789055],
@@ -39285,21 +39289,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKM9",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Southern Scotland",
-        "NUTS_NAME": "Southern Scotland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKM9"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKM9',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Southern Scotland',
+        NUTS_NAME: 'Southern Scotland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKM9'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.689751000168358, 55.189063998297975],
             [-2.858508000610921, 55.108424998264773],
@@ -39347,21 +39351,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TRC3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Mardin, Batman, ??rnak, Siirt",
-        "NUTS_NAME": "Mardin, Batman, ??rnak, Siirt",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TRC3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TRC3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Mardin, Batman, ??rnak, Siirt',
+        NUTS_NAME: 'Mardin, Batman, ??rnak, Siirt',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TRC3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [41.702295000144751, 38.246542992063411],
             [41.979488008554235, 38.139351698304417],
@@ -39404,21 +39408,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKC1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Tees Valley and Durham",
-        "NUTS_NAME": "Tees Valley and Durham",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKC1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKC1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Tees Valley and Durham',
+        NUTS_NAME: 'Tees Valley and Durham',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKC1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.559341499638531, 54.882102997498464],
             [-1.462752079416895, 54.816574066295694],
@@ -39487,21 +39491,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKC2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Northumberland and Tyne and Wear",
-        "NUTS_NAME": "Northumberland and Tyne and Wear",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKC2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKC2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Northumberland and Tyne and Wear',
+        NUTS_NAME: 'Northumberland and Tyne and Wear',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKC2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.363901500055636, 54.944183498051302],
             [-1.347372499700727, 54.860690998368938],
@@ -39531,21 +39535,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKD1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Cumbria",
-        "NUTS_NAME": "Cumbria",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKD1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKD1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Cumbria',
+        NUTS_NAME: 'Cumbria',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKD1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.312043000153077, 54.791080497702701],
             [-2.340246176176375, 54.695047953698186],
@@ -39579,21 +39583,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKD3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Greater Manchester",
-        "NUTS_NAME": "Greater Manchester",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKD3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKD3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Greater Manchester',
+        NUTS_NAME: 'Greater Manchester',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKD3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.963350500537831, 53.509853497399114],
             [-2.031023500191605, 53.370288997476202],
@@ -39618,21 +39622,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKD4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Lancashire",
-        "NUTS_NAME": "Lancashire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKD4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKD4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Lancashire',
+        NUTS_NAME: 'Lancashire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKD4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.730499500361958, 53.520629997616027],
             [-2.887964000001508, 53.503838497429435],
@@ -39668,21 +39672,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKD6",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Cheshire",
-        "NUTS_NAME": "Cheshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKD6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKD6',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Cheshire',
+        NUTS_NAME: 'Cheshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKD6'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-2.426605999351879, 53.387457997812135],
             [-2.313970499545989, 53.357452497588703],
@@ -39713,21 +39717,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKD7",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Merseyside",
-        "NUTS_NAME": "Merseyside",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKD7"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKD7',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Merseyside',
+        NUTS_NAME: 'Merseyside',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKD7'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-2.887964000001508, 53.503838497429435],
@@ -39760,21 +39764,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKE1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "East Yorkshire and Northern Lincolnshire",
-        "NUTS_NAME": "East Yorkshire and Northern Lincolnshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKE1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKE1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'East Yorkshire and Northern Lincolnshire',
+        NUTS_NAME: 'East Yorkshire and Northern Lincolnshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKE1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.250095999552235, 53.733318498107636],
             [-0.419136500529083, 53.719619997752019],
@@ -39806,21 +39810,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKE2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "North Yorkshire",
-        "NUTS_NAME": "North Yorkshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKE2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKE2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'North Yorkshire',
+        NUTS_NAME: 'North Yorkshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKE2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.790906500104274, 54.559482497829357],
             [-0.562274513862737, 54.463731474544375],
@@ -39859,21 +39863,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKE3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "South Yorkshire",
-        "NUTS_NAME": "South Yorkshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKE3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKE3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'South Yorkshire',
+        NUTS_NAME: 'South Yorkshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKE3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.865270499949395, 53.637733497369915],
             [-0.935518000486717, 53.502521497827217],
@@ -39894,21 +39898,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT16",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Centro (PT)",
-        "NUTS_NAME": "Centro (PT)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT16"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT16',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Centro (PT)',
+        NUTS_NAME: 'Centro (PT)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT16'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-6.929903499873226, 41.029466493274711],
             [-6.812963118475349, 40.834974437689283],
@@ -39955,21 +39959,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT17",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Área Metropolitana de Lisboa",
-        "NUTS_NAME": "Área Metropolitana de Lisboa",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT17"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT17',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Área Metropolitana de Lisboa',
+        NUTS_NAME: 'Área Metropolitana de Lisboa',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT17'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-8.930277000337524, 39.018024992532617],
             [-8.882736236984888, 38.963958180223855],
@@ -39992,21 +39996,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT18",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Alentejo",
-        "NUTS_NAME": "Alentejo",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT18"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT18',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Alentejo',
+        NUTS_NAME: 'Alentejo',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT18'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-7.231467000447573, 39.278430993050385],
             [-7.12644719057898, 39.12279748188444],
@@ -40053,21 +40057,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT20",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Região Autónoma dos Açores",
-        "NUTS_NAME": "Região Autónoma dos Açores",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT20"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT20',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Região Autónoma dos Açores',
+        NUTS_NAME: 'Região Autónoma dos Açores',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT20'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-25.691902197378546, 37.843241170810835],
@@ -40180,21 +40184,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PT30",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PT",
-        "NAME_LATN": "Região Autónoma da Madeira",
-        "NUTS_NAME": "Região Autónoma da Madeira",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PT30"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PT30',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PT',
+        NAME_LATN: 'Região Autónoma da Madeira',
+        NUTS_NAME: 'Região Autónoma da Madeira',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PT30'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-16.274668096591757, 33.053159296851277],
@@ -40232,21 +40236,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Nord-Vest",
-        "NUTS_NAME": "Nord-Vest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Nord-Vest',
+        NUTS_NAME: 'Nord-Vest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [23.493604999449726, 47.96781149634333],
             [23.569540918523899, 48.007152656179798],
@@ -40289,21 +40293,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Centru",
-        "NUTS_NAME": "Centru",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Centru',
+        NUTS_NAME: 'Centru',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.661582500330642, 47.091646496124596],
             [25.771440079068263, 46.99028906134636],
@@ -40352,21 +40356,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Nord-Est",
-        "NUTS_NAME": "Nord-Est",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Nord-Est',
+        NUTS_NAME: 'Nord-Est',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.391166500679745, 47.589397496302446],
             [27.847124194656693, 47.116809186255132],
@@ -40414,21 +40418,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Sud-Est",
-        "NUTS_NAME": "Sud-Est",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Sud-Est',
+        NUTS_NAME: 'Sud-Est',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [27.503053000103858, 46.139620995372297],
             [27.564994510392168, 46.020463420422068],
@@ -40477,21 +40481,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Sud-Muntenia",
-        "NUTS_NAME": "Sud-Muntenia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Sud-Muntenia',
+        NUTS_NAME: 'Sud-Muntenia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [25.321577500423597, 45.381088995619962],
             [25.452539000472509, 45.44134199532445],
@@ -40544,21 +40548,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Bucure?ti-Ilfov",
-        "NUTS_NAME": "Bucure?ti-Ilfov",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Bucure?ti-Ilfov',
+        NUTS_NAME: 'Bucure?ti-Ilfov',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO32'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [26.259956499739584, 44.294985994777981],
             [26.115401656572068, 44.259312668144048],
@@ -40573,21 +40577,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Sud-Vest Oltenia",
-        "NUTS_NAME": "Sud-Vest Oltenia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Sud-Vest Oltenia',
+        NUTS_NAME: 'Sud-Vest Oltenia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO41'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [24.884019499581953, 44.382636495050392],
             [24.808558525457091, 44.218241807297915],
@@ -40636,21 +40640,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RO42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RO",
-        "NAME_LATN": "Vest",
-        "NUTS_NAME": "Vest",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RO42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RO42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RO',
+        NAME_LATN: 'Vest',
+        NUTS_NAME: 'Vest',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RO42'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.676575500256078, 46.405825495878716],
             [22.748716000449814, 46.351207495976873],
@@ -40698,21 +40702,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "City of Belgrade",
-        "NUTS_NAME": "?????????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'City of Belgrade',
+        NUTS_NAME: '?????????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS11'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.819536999705576, 44.657872995255545],
             [20.76838727661146, 44.554494521055375],
@@ -40736,21 +40740,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "Autonomous Province of Vojvodina",
-        "NUTS_NAME": "?????? ?????????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'Autonomous Province of Vojvodina',
+        NUTS_NAME: '?????? ?????????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS12'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.264296000560623, 46.126373496082287],
             [20.662833000307224, 45.794115995370532],
@@ -40802,21 +40806,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "Region ?umadije i Zapadne Srbije",
-        "NUTS_NAME": "?????? ???????? ? ??????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'Region ?umadije i Zapadne Srbije',
+        NUTS_NAME: '?????? ???????? ? ??????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.400346000344566, 44.313118495400737],
             [20.485804346464473, 44.429959535668232],
@@ -40866,21 +40870,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "RS22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "RS",
-        "NAME_LATN": "Region Ju?ne i Isto?ne Srbije",
-        "NUTS_NAME": "?????? ????? ? ??????? ??????",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "RS22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'RS22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'RS',
+        NAME_LATN: 'Region Ju?ne i Isto?ne Srbije',
+        NUTS_NAME: '?????? ????? ? ??????? ??????',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'RS22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.016132500309659, 44.599202495243986],
             [22.145417917686764, 44.484223743379175],
@@ -40945,21 +40949,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE11",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Stockholm",
-        "NUTS_NAME": "Stockholm",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE11"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE11',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Stockholm',
+        NUTS_NAME: 'Stockholm',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE11'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [17.572396000501517, 58.950852498727556],
@@ -41007,21 +41011,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Mellersta Norrland",
-        "NUTS_NAME": "Mellersta Norrland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Mellersta Norrland',
+        NUTS_NAME: 'Mellersta Norrland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE32'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [16.718953999951331, 64.02787799837624],
@@ -41102,21 +41106,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SE33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SE",
-        "NAME_LATN": "Övre Norrland",
-        "NUTS_NAME": "Övre Norrland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SE33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SE33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SE',
+        NAME_LATN: 'Övre Norrland',
+        NUTS_NAME: 'Övre Norrland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SE33'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [24.127289326106233, 65.739980010285848],
@@ -41275,21 +41279,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SI03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SI",
-        "NAME_LATN": "Vzhodna Slovenija",
-        "NUTS_NAME": "Vzhodna Slovenija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SI03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SI03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SI',
+        NAME_LATN: 'Vzhodna Slovenija',
+        NUTS_NAME: 'Vzhodna Slovenija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SI03'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.370793500522485, 46.722243495491597],
             [16.596805000506155, 46.475902495494729],
@@ -41346,21 +41350,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SI04",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SI",
-        "NAME_LATN": "Zahodna Slovenija",
-        "NUTS_NAME": "Zahodna Slovenija",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SI04"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SI04',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SI',
+        NAME_LATN: 'Zahodna Slovenija',
+        NUTS_NAME: 'Zahodna Slovenija',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SI04'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [14.948575000432772, 45.97861049570411],
             [14.767382263194499, 45.759345450525871],
@@ -41399,21 +41403,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SK01",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SK",
-        "NAME_LATN": "Bratislavský kraj",
-        "NUTS_NAME": "Bratislavský kraj",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SK01"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SK01',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SK',
+        NAME_LATN: 'Bratislavský kraj',
+        NUTS_NAME: 'Bratislavský kraj',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SK01'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.247427500123212, 48.012008996099404],
             [17.160797500302092, 48.006656496149581],
@@ -41430,21 +41434,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SK02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SK",
-        "NAME_LATN": "Západné Slovensko",
-        "NUTS_NAME": "Západné Slovensko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SK02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SK02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SK',
+        NAME_LATN: 'Západné Slovensko',
+        NUTS_NAME: 'Západné Slovensko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SK02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.826350999860225, 48.744058996505686],
             [18.47867699968096, 48.548603996898734],
@@ -41483,21 +41487,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SK03",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SK",
-        "NAME_LATN": "Stredné Slovensko",
-        "NUTS_NAME": "Stredné Slovensko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SK03"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SK03',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SK',
+        NAME_LATN: 'Stredné Slovensko',
+        NUTS_NAME: 'Stredné Slovensko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SK03'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.883929500594981, 49.204176996548647],
             [20.02045105142523, 49.092771059898432],
@@ -41540,21 +41544,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "SK04",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "SK",
-        "NAME_LATN": "Východné Slovensko",
-        "NUTS_NAME": "Východné Slovensko",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "SK04"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'SK04',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'SK',
+        NAME_LATN: 'Východné Slovensko',
+        NUTS_NAME: 'Východné Slovensko',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'SK04'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [22.566839999577606, 49.088377496531898],
             [22.382817500235774, 48.862263996824566],
@@ -41591,21 +41595,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR10",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "?stanbul",
-        "NUTS_NAME": "?stanbul",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR10"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR10',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: '?stanbul',
+        NUTS_NAME: '?stanbul',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR10'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [29.3425175005178, 40.807657493736535],
@@ -41633,21 +41637,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKN0",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Northern Ireland",
-        "NUTS_NAME": "Northern Ireland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKN0"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKN0',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Northern Ireland',
+        NUTS_NAME: 'Northern Ireland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKN0'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-5.976527499446945, 55.056598498250416],
             [-5.963875282860586, 54.984176405669665],
@@ -41699,21 +41703,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKL1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "West Wales and The Valleys",
-        "NUTS_NAME": "West Wales and The Valleys",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKL1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKL1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'West Wales and The Valleys',
+        NUTS_NAME: 'West Wales and The Valleys',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKL1'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-3.375009499493181, 52.892474997998498],
@@ -41784,21 +41788,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Tekirda?, Edirne, K?rklareli",
-        "NUTS_NAME": "Tekirda?, Edirne, K?rklareli",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Tekirda?, Edirne, K?rklareli',
+        NUTS_NAME: 'Tekirda?, Edirne, K?rklareli',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [28.035512500295617, 41.983079493722727],
             [27.99197410169803, 41.825360184627918],
@@ -41846,21 +41850,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Bal?kesir, Çanakkale",
-        "NUTS_NAME": "Bal?kesir, Çanakkale",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Bal?kesir, Çanakkale',
+        NUTS_NAME: 'Bal?kesir, Çanakkale',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR22'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.164778999791718, 40.3956129929581],
@@ -41967,21 +41971,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "?zmir",
-        "NUTS_NAME": "?zmir",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: '?zmir',
+        NUTS_NAME: '?zmir',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR31'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.442609500309249, 38.104661492557966],
@@ -42023,21 +42027,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Ayd?n, Denizli, Mu?la",
-        "NUTS_NAME": "Ayd?n, Denizli, Mu?la",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Ayd?n, Denizli, Mu?la',
+        NUTS_NAME: 'Ayd?n, Denizli, Mu?la',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR32'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [29.852118999869376, 37.752285491889772],
@@ -42122,21 +42126,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Manisa, Afyonkarahisar, Kütahya, U?ak",
-        "NUTS_NAME": "Manisa, Afyonkarahisar, Kütahya, U?ak",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Manisa, Afyonkarahisar, Kütahya, U?ak',
+        NUTS_NAME: 'Manisa, Afyonkarahisar, Kütahya, U?ak',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR33'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [31.619732500493651, 39.103055493024499],
             [31.698820658819191, 38.951946788329238],
@@ -42193,21 +42197,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Bursa, Eski?ehir, Bilecik",
-        "NUTS_NAME": "Bursa, Eski?ehir, Bilecik",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Bursa, Eski?ehir, Bilecik',
+        NUTS_NAME: 'Bursa, Eski?ehir, Bilecik',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR41'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [30.521932000430986, 40.294341493530432],
             [30.650090499601198, 40.144735993197742],
@@ -42258,21 +42262,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Kocaeli, Sakarya, Düzce, Bolu, Yalova",
-        "NUTS_NAME": "Kocaeli, Sakarya, Düzce, Bolu, Yalova",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Kocaeli, Sakarya, Düzce, Bolu, Yalova',
+        NUTS_NAME: 'Kocaeli, Sakarya, Düzce, Bolu, Yalova',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR42'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [30.98205550022751, 41.072602493819858],
             [31.295656500573916, 41.11631999357337],
@@ -42316,21 +42320,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "TR51",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "TR",
-        "NAME_LATN": "Ankara",
-        "NUTS_NAME": "Ankara",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "TR51"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'TR51',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'TR',
+        NAME_LATN: 'Ankara',
+        NUTS_NAME: 'Ankara',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'TR51'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [33.695422000495057, 40.332241493141346],
             [33.580869867732694, 40.190889632324236],
@@ -42376,21 +42380,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKE4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "West Yorkshire",
-        "NUTS_NAME": "West Yorkshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKE4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKE4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'West Yorkshire',
+        NUTS_NAME: 'West Yorkshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKE4'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.727166500167494, 53.910236497924721],
             [-1.362823234793789, 53.922853273726751],
@@ -42412,21 +42416,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKF1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Derbyshire and Nottinghamshire",
-        "NUTS_NAME": "Derbyshire and Nottinghamshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKF1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKF1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Derbyshire and Nottinghamshire',
+        NUTS_NAME: 'Derbyshire and Nottinghamshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKF1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.801470500090966, 53.480991997734733],
             [-1.599117999567507, 53.311317997738335],
@@ -42460,21 +42464,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKF2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Leicestershire, Rutland and Northamptonshire",
-        "NUTS_NAME": "Leicestershire, Rutland and Northamptonshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKF2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKF2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Leicestershire, Rutland and Northamptonshire',
+        NUTS_NAME: 'Leicestershire, Rutland and Northamptonshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKF2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.778224500295731, 52.976932497536247],
             [-0.66450815444914, 52.77896703573272],
@@ -42508,21 +42512,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKF3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Lincolnshire",
-        "NUTS_NAME": "Lincolnshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKF3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKF3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Lincolnshire',
+        NUTS_NAME: 'Lincolnshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKF3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [0.017377999603215, 53.525367497285536],
             [0.171470899190848, 53.46233272197874],
@@ -42551,21 +42555,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKG1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Herefordshire, Worcestershire and Warwickshire",
-        "NUTS_NAME": "Herefordshire, Worcestershire and Warwickshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKG1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKG1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Herefordshire, Worcestershire and Warwickshire',
+        NUTS_NAME: 'Herefordshire, Worcestershire and Warwickshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKG1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.201579999882805, 52.396735997348117],
             [-1.331897000306813, 52.168484997762498],
@@ -42611,21 +42615,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKG2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Shropshire and Staffordshire",
-        "NUTS_NAME": "Shropshire and Staffordshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKG2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKG2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Shropshire and Staffordshire',
+        NUTS_NAME: 'Shropshire and Staffordshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKG2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.597507000290728, 52.700431997110485],
             [-1.589611000324199, 52.687270997118588],
@@ -42666,21 +42670,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKG3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "West Midlands",
-        "NUTS_NAME": "West Midlands",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKG3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKG3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'West Midlands',
+        NUTS_NAME: 'West Midlands',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKG3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-1.87253750024419, 52.584953497510078],
             [-1.78805299985797, 52.587871497949003],
@@ -42706,21 +42710,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKH1",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "East Anglia",
-        "NUTS_NAME": "East Anglia",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKH1"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKH1',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'East Anglia',
+        NUTS_NAME: 'East Anglia',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKH1'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [1.104539272031547, 51.942714859394705],
             [0.90644836558003, 51.964837900629369],
@@ -42753,21 +42757,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKH2",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Bedfordshire and Hertfordshire",
-        "NUTS_NAME": "Bedfordshire and Hertfordshire",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKH2"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKH2',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Bedfordshire and Hertfordshire',
+        NUTS_NAME: 'Bedfordshire and Hertfordshire',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKH2'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [-0.304422999625625, 51.636348497081975],
             [-0.500561500104415, 51.59968949687218],
@@ -42790,21 +42794,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKH3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Essex",
-        "NUTS_NAME": "Essex",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKH3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKH3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Essex',
+        NUTS_NAME: 'Essex',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKH3'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [0.389743000277858, 52.036464497256326],
             [0.404686500209097, 52.065498497389193],
@@ -42844,21 +42848,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKI3",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Inner London ? West",
-        "NUTS_NAME": "Inner London ? West",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKI3"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKI3',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Inner London ? West',
+        NUTS_NAME: 'Inner London ? West',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKI3'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.171222999856452, 51.572429497293726],
@@ -42889,21 +42893,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKI4",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Inner London ? East",
-        "NUTS_NAME": "Inner London ? East",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKI4"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKI4',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Inner London ? East',
+        NUTS_NAME: 'Inner London ? East',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKI4'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [0.068394000455933, 51.544414497002215],
@@ -42935,21 +42939,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKI5",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Outer London ? East and North East",
-        "NUTS_NAME": "Outer London ? East and North East",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKI5"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKI5',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Outer London ? East and North East',
+        NUTS_NAME: 'Outer London ? East and North East',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKI5'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [-0.012219499989989, 51.64622899687631],
@@ -42985,21 +42989,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "UKI6",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "UK",
-        "NAME_LATN": "Outer London ? South",
-        "NUTS_NAME": "Outer London ? South",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "UKI6"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'UKI6',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'UK',
+        NAME_LATN: 'Outer London ? South',
+        NUTS_NAME: 'Outer London ? South',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'UKI6'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [0.028960500360387, 51.441623497380419],
             [0.148870999922983, 51.408504497171826],
@@ -43019,21 +43023,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL12",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Friesland (NL)",
-        "NUTS_NAME": "Friesland (NL)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL12"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL12',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Friesland (NL)',
+        NUTS_NAME: 'Friesland (NL)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL12'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [5.795148500521173, 52.806499497107993],
@@ -43105,21 +43109,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL13",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Drenthe",
-        "NUTS_NAME": "Drenthe",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL13"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL13',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Drenthe',
+        NUTS_NAME: 'Drenthe',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL13'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [7.092692000538143, 52.838200997501239],
             [7.006229499764741, 52.638762997358064],
@@ -43140,21 +43144,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Overijssel",
-        "NUTS_NAME": "Overijssel",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Overijssel',
+        NUTS_NAME: 'Overijssel',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.629429500159122, 52.669658497182951],
             [6.709732500094646, 52.627823497678328],
@@ -43180,21 +43184,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Gelderland",
-        "NUTS_NAME": "Gelderland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Gelderland',
+        NUTS_NAME: 'Gelderland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.166411500231521, 52.231044996989887],
             [6.381997500016598, 52.246085997642396],
@@ -43223,21 +43227,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL23",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Flevoland",
-        "NUTS_NAME": "Flevoland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL23"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL23',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Flevoland',
+        NUTS_NAME: 'Flevoland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL23'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.864311000284161, 52.518169497131019],
             [5.768641993775325, 52.415966329730949],
@@ -43257,21 +43261,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL31",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Utrecht",
-        "NUTS_NAME": "Utrecht",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL31"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL31',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Utrecht',
+        NUTS_NAME: 'Utrecht',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL31'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.335461999601085, 52.29021849719441],
             [5.404633000318397, 52.24962999757485],
@@ -43290,21 +43294,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL32",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Noord-Holland",
-        "NUTS_NAME": "Noord-Holland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL32"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL32',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Noord-Holland',
+        NUTS_NAME: 'Noord-Holland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL32'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.164383500193087, 53.00091049767596],
             [5.377261500652306, 52.764804997408355],
@@ -43336,21 +43340,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL33",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Zuid-Holland",
-        "NUTS_NAME": "Zuid-Holland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL33"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL33',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Zuid-Holland',
+        NUTS_NAME: 'Zuid-Holland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL33'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [4.728766000366617, 52.209819497676961],
             [4.794524000197127, 52.226726497506881],
@@ -43381,21 +43385,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL34",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Zeeland",
-        "NUTS_NAME": "Zeeland",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL34"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL34',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Zeeland',
+        NUTS_NAME: 'Zeeland',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL34'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [4.279564999441185, 51.376017497059252],
@@ -43430,21 +43434,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Noord-Brabant",
-        "NUTS_NAME": "Noord-Brabant",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Noord-Brabant',
+        NUTS_NAME: 'Noord-Brabant',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL41'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [5.865158499648272, 51.757407997546302],
             [6.012175981492888, 51.595693935702506],
@@ -43477,21 +43481,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NL42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NL",
-        "NAME_LATN": "Limburg (NL)",
-        "NUTS_NAME": "Limburg (NL)",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NL42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NL42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NL',
+        NAME_LATN: 'Limburg (NL)',
+        NUTS_NAME: 'Limburg (NL)',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NL42'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [6.086947500446951, 50.913134996719251],
             [6.020999000468375, 50.754295497541897],
@@ -43521,21 +43525,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL21",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Ma?opolskie",
-        "NUTS_NAME": "Ma?opolskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL21"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL21',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Ma?opolskie',
+        NUTS_NAME: 'Ma?opolskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL21'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.681538999481699, 50.205875496876153],
             [20.825133318396851, 50.287924777652627],
@@ -43577,21 +43581,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL22",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "?l?skie",
-        "NUTS_NAME": "?l?skie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL22"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL22',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: '?l?skie',
+        NUTS_NAME: '?l?skie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL22'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.243142499308615, 51.036844496787168],
             [19.342965887179094, 51.024115100782488],
@@ -43636,21 +43640,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL41",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Wielkopolskie",
-        "NUTS_NAME": "Wielkopolskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL41"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL41',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Wielkopolskie',
+        NUTS_NAME: 'Wielkopolskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL41'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.458523000235651, 52.738947997455043],
             [17.690713834635456, 52.623507958546405],
@@ -43708,21 +43712,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL42",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Zachodniopomorskie",
-        "NUTS_NAME": "Zachodniopomorskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL42"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL42',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Zachodniopomorskie',
+        NUTS_NAME: 'Zachodniopomorskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL42'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.7927645005629, 53.98555049789752],
             [16.982053499435402, 53.904909498132902],
@@ -43776,21 +43780,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL43",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Lubuskie",
-        "NUTS_NAME": "Lubuskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL43"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL43',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Lubuskie',
+        NUTS_NAME: 'Lubuskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL43'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.962497500074328, 53.041380997629879],
             [15.946907000456374, 52.754895997635884],
@@ -43835,21 +43839,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL51",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Dolno?l?skie",
-        "NUTS_NAME": "Dolno?l?skie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL51"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL51',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Dolno?l?skie',
+        NUTS_NAME: 'Dolno?l?skie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL51'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [16.828371999991337, 51.572187997546322],
             [17.13896521154302, 51.578600188723868],
@@ -43899,21 +43903,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL52",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Opolskie",
-        "NUTS_NAME": "Opolskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL52"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL52',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Opolskie',
+        NUTS_NAME: 'Opolskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL52'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.795269500587516, 51.194145997331418],
             [17.93945600049663, 51.108864997139733],
@@ -43943,21 +43947,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL61",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Kujawsko-pomorskie",
-        "NUTS_NAME": "Kujawsko-pomorskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL61"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL61',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Kujawsko-pomorskie',
+        NUTS_NAME: 'Kujawsko-pomorskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL61'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [19.129276499932523, 53.588260497636455],
             [19.307031618525343, 53.407076578297101],
@@ -43994,21 +43998,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL62",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Warmi?sko-mazurskie",
-        "NUTS_NAME": "Warmi?sko-mazurskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL62"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL62',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Warmi?sko-mazurskie',
+        NUTS_NAME: 'Warmi?sko-mazurskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL62'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [20.313502999324601, 54.402201997930042],
             [21.55932200010016, 54.322503997415701],
@@ -44043,21 +44047,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "PL63",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "PL",
-        "NAME_LATN": "Pomorskie",
-        "NUTS_NAME": "Pomorskie",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "PL63"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'PL63',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'PL',
+        NAME_LATN: 'Pomorskie',
+        NUTS_NAME: 'Pomorskie',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'PL63'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [18.950029500226581, 54.358310497599305],
             [19.341813494835506, 54.37011145783795],
@@ -44100,21 +44104,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HR05",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HR",
-        "NAME_LATN": "Grad Zagreb",
-        "NUTS_NAME": "Grad Zagreb",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": 0.0,
-        "COAST_TYPE": 0,
-        "FID": "HR05"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HR05',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HR',
+        NAME_LATN: 'Grad Zagreb',
+        NUTS_NAME: 'Grad Zagreb',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: 0.0,
+        COAST_TYPE: 0,
+        FID: 'HR05'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [15.956768999484915, 45.901593995314002],
             [16.154813499407929, 45.96877399571644],
@@ -44129,21 +44133,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "HR06",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "HR",
-        "NAME_LATN": "Sjeverna Hrvatska",
-        "NUTS_NAME": "Sjeverna Hrvatska",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": 0.0,
-        "COAST_TYPE": 0,
-        "FID": "HR06"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'HR06',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'HR',
+        NAME_LATN: 'Sjeverna Hrvatska',
+        NUTS_NAME: 'Sjeverna Hrvatska',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: 0.0,
+        COAST_TYPE: 0,
+        FID: 'HR06'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [17.294324999564836, 45.98854449527532],
             [17.12205300054616, 45.88336399572642],
@@ -44195,21 +44199,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO02",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Innlandet",
-        "NUTS_NAME": "Innlandet",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NO02"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO02',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Innlandet',
+        NUTS_NAME: 'Innlandet',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NO02'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.251700999581617, 61.073943998412943],
             [8.077597856569074, 61.183233249034394],
@@ -44275,21 +44279,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO06",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Trøndelag",
-        "NUTS_NAME": "Trøndelag",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NO06"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO06',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Trøndelag',
+        NUTS_NAME: 'Trøndelag',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NO06'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [14.325985000424824, 65.118915998985486],
@@ -44385,21 +44389,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO08",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Oslo og Viken",
-        "NUTS_NAME": "Oslo og Viken",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": 0.0,
-        "COAST_TYPE": 0,
-        "FID": "NO08"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO08',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Oslo og Viken',
+        NUTS_NAME: 'Oslo og Viken',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: 0.0,
+        COAST_TYPE: 0,
+        FID: 'NO08'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [8.251700999581617, 61.073943998412943],
             [9.190991165853044, 60.790529130584979],
@@ -44473,21 +44477,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO09",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Agder og Sør-Østlandet",
-        "NUTS_NAME": "Agder og Sør-Østlandet",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": 0.0,
-        "COAST_TYPE": 0,
-        "FID": "NO09"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO09',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Agder og Sør-Østlandet',
+        NUTS_NAME: 'Agder og Sør-Østlandet',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: 0.0,
+        COAST_TYPE: 0,
+        FID: 'NO09'
       },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+      geometry: {
+        type: 'Polygon',
+        coordinates: [
           [
             [10.321235375729188, 59.691248182443346],
             [10.380763374462003, 59.609815881453351],
@@ -44536,21 +44540,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO0A",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Vestlandet",
-        "NUTS_NAME": "Vestlandet",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": 0.0,
-        "COAST_TYPE": 0,
-        "FID": "NO0A"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO0A',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Vestlandet',
+        NUTS_NAME: 'Vestlandet',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: 0.0,
+        COAST_TYPE: 0,
+        FID: 'NO0A'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [8.755111499760815, 63.424340998528493],
@@ -44731,21 +44735,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO07",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Nord-Norge",
-        "NUTS_NAME": "Nord-Norge",
-        "MOUNT_TYPE": 0.0,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NO07"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO07',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Nord-Norge',
+        NUTS_NAME: 'Nord-Norge',
+        MOUNT_TYPE: 0.0,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NO07'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [28.929679999209856, 69.051904999170887],
@@ -45309,21 +45313,21 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NUTS_ID": "NO0B",
-        "LEVL_CODE": 2,
-        "CNTR_CODE": "NO",
-        "NAME_LATN": "Jan Mayen and Svalbard",
-        "NUTS_NAME": "Jan Mayen and Svalbard",
-        "MOUNT_TYPE": null,
-        "URBN_TYPE": null,
-        "COAST_TYPE": 0,
-        "FID": "NO0B"
+      type: 'Feature',
+      properties: {
+        NUTS_ID: 'NO0B',
+        LEVL_CODE: 2,
+        CNTR_CODE: 'NO',
+        NAME_LATN: 'Jan Mayen and Svalbard',
+        NUTS_NAME: 'Jan Mayen and Svalbard',
+        MOUNT_TYPE: null,
+        URBN_TYPE: null,
+        COAST_TYPE: 0,
+        FID: 'NO0B'
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: 'MultiPolygon',
+        coordinates: [
           [
             [
               [32.344106071620523, 80.079821411778937],
@@ -45808,4 +45812,4 @@
       }
     }
   ]
-}
+};

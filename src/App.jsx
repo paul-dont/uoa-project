@@ -2,11 +2,14 @@ import React from 'react';
 import Nav from './components/nav/Nav';
 import Title from './components/title/Title';
 import About from './components/about/About';
-import Charts from './components/charts/Charts';
+import Bysector from './components/charts/Bysector/Bysector';
+import Wastewater from './components/charts/Wastewater/Wastewater';
+import Waterconsumption from './components/charts/Waterconsumption/Waterconsumption';
+import MapData from './components/charts/MapData/MapData';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Highcharts from 'highcharts/highstock';
-import MapData from './assets/mapData';
+import mapData from '../src/assets/mapData';
 
 // Load Highcharts modules
 require('highcharts/indicators/indicators')(Highcharts);
@@ -34,7 +37,7 @@ const mapOptions = {
   },
   series: [
     {
-      mapData: MapData,
+      mapData: mapData,
       dataLabels: {
         formatter: function() {
           return this.point.properties['woe-label'].split(',')[0];
@@ -72,7 +75,10 @@ const App = () => {
       <Nav />
       <Title />
       <About />
-      <Charts options={mapOptions} highcharts={Highcharts} />
+      <Waterconsumption highcharts={Highcharts} />
+      <Wastewater highcharts={Highcharts} />
+      <Bysector highcharts={Highcharts} />
+      <MapData options={mapOptions} highcharts={Highcharts} />
       <Contact />
       <Footer />
     </>
