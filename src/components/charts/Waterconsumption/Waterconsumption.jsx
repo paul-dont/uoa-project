@@ -5,9 +5,10 @@ import HighchartsReact from 'highcharts-react-official';
 import waterData from './data/waterData';
 import energyData from './data/energyData';
 import emissionsData from './data/emissionsData';
+import lala from './data/lala';
 
 const WaterConsumption = () => {
-  const [chartData, setChartData] = useState(waterData);
+  const [chartData, setChartData] = useState(lala);
 
   const onClickHandler = e => {
     if (e.target.textContent === 'Water') {
