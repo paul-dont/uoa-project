@@ -44,3 +44,30 @@
 .highcharts-data-table tr:hover {
   background: #f1f7ff;
 }
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7rem;
+  margin: 1rem 0;
+}
+
+button {
+  height: 5rem;
+  width: 5rem;
+  padding: 0.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.4s ease;
+  box-sizing: border-box;
+}
+
+button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px 1px #fff;
+}

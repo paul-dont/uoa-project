@@ -1,81 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Waterconsumption.css';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
+import waterData from './data/waterData';
+import energyData from './data/energyData';
+import emissionsData from './data/emissionsData';
 
 const WaterConsumption = () => {
-  const options = {
-    chart: {
-      type: 'area'
-    },
-    title: {
-      text: 'Estimated European Water Consumption per Country'
-    },
-    subtitle: {
-      text: 'University of Athens'
-    },
-    xAxis: {
-      categories: ['2018', '2019', '2020', '2021', '2022', '2023', '2024'],
-      tickmarkPlacement: 'on',
-      title: {
-        enabled: false
-      }
-    },
-    yAxis: {
-      title: {
-        text: 'WATER  m³'
-      },
-      labels: {
-        formatter: function() {
-          return this.value;
-        }
-      }
-    },
-    tooltip: {
-      split: true,
-      valueSuffix: ' m³'
-    },
-    plotOptions: {
-      area: {
-        stacking: 'normal',
-        lineColor: '#666666',
-        lineWidth: 1,
-        marker: {
-          lineWidth: 1,
-          lineColor: '#666666'
-        }
-      }
-    },
-    series: [
-      {
-        name: 'Germany',
-        data: [502, 635, 809, 947, 1402, 3634, 5268]
-      },
-      {
-        name: 'France',
-        data: [106, 107, 111, 133, 221, 767, 1766]
-      },
-      {
-        name: 'UK',
-        data: [163, 203, 276, 408, 547, 729, 628]
-      },
-      {
-        name: 'Spain',
-        data: [18, 31, 54, 156, 339, 818, 1201]
-      },
-      {
-        name: 'Greece',
-        data: [2, 2, 2, 6, 13, 30, 46]
-      }
-    ]
+  const [chartData, setChartData] = useState(waterData);
+
+  const onClickHandler = e => {
+    if (e.target.textContent === 'Water') {
+      setChartData(waterData);
+    }
+    if (e.target.textContent === 'Energy') {
+      setChartData(energyData);
+    }
+    if (e.target.textContent === 'CO2') {
+      setChartData(emissionsData);
+    }
   };
 
   return (
     <section id="results" className="container results__container">
-      <h2>Water Consumption</h2>
+      <h2>Final Results</h2>
       <h5>Per European Country</h5>
-
-      <HighchartsReact highcharts={Highcharts} options={options} />
+      <div className="buttons">
+        <button onClick={onClickHandler}>Water</button>
+        <button onClick={onClickHandler}>Energy</button>
+        <button onClick={onClickHandler}>CO2</button>
+      </div>
+      <HighchartsReact highcharts={Highcharts} options={chartData} />
     </section>
   );
 };

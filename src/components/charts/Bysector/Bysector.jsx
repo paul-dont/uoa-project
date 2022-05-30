@@ -12,7 +12,7 @@ const Bysector = () => {
       type: 'pie'
     },
     title: {
-      text: 'Browser market shares in January, 2018'
+      text: 'Worldwide Totals'
     },
     tooltip: {
       pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -35,14 +35,14 @@ const Bysector = () => {
     },
     series: [
       {
-        name: 'Share',
+        name: 'Totals',
         data: [
-          { name: 'Chrome', y: 61.41 },
-          { name: 'Internet Explorer', y: 11.84 },
-          { name: 'Firefox', y: 10.85 },
-          { name: 'Edge', y: 4.67 },
-          { name: 'Safari', y: 4.18 },
-          { name: 'Other', y: 7.05 }
+          { name: 'Asia', y: 61.41 },
+          { name: 'North America', y: 11.84 },
+          { name: 'South America', y: 10.85 },
+          { name: 'Autralia', y: 4.67 },
+          { name: 'Africa', y: 4.18 },
+          { name: 'Europe', y: 7.05 }
         ]
       }
     ]
@@ -51,7 +51,7 @@ const Bysector = () => {
   return (
     <section id="results" className="container results__container">
       <h2>Totals</h2>
-      <h5>Per Category</h5>
+      <h5>Per Continent</h5>
 
       <HighchartsReact highcharts={Highcharts} options={options} />
     </section>
